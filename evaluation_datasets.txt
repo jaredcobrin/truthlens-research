@@ -1,0 +1,95 @@
+EVALUATOR TESTING DATASETS
+===========================
+
+COMPONENT 1: CONTRADICTION DETECTION
+--------------------------------------
+MNLI (Multi-Genre Natural Language Inference)
+- 433,000 sentence pairs labeled as entailment, contradiction, or neutral
+- Best for: testing whether evaluator correctly identifies contradictions
+- Link: https://huggingface.co/datasets/nyu-mll/multi_nli
+
+ContractNLI
+- Legal documents with labeled contradictions and entailment
+- Best for: testing contradiction detection in longer, complex texts
+- Link: https://huggingface.co/datasets/kiddothe2b/contract-nli
+
+COMPONENT 2: FACTUAL ACCURACY / LIE DETECTION
+-----------------------------------------------
+FEVER (Fact Extraction and VERification)
+- 185,000 claims labeled as: Supported, Refuted, Not Enough Info
+- Wikipedia evidence provided for each claim
+- Best for: testing whether evaluator correctly flags false statements
+- Link: https://huggingface.co/datasets/fever/fever
+
+LIAR Dataset
+- 12,800 human-labeled statements from PolitiFact
+- Fine-grained labels: pants-on-fire, false, barely-true, half-true, mostly-true, true
+- Real deceptive language from real public figures
+- Best for: testing nuanced deception detection
+- Link: https://huggingface.co/datasets/liar
+
+COMPONENT 3: HEDGING / EPISTEMIC COWARDICE
+--------------------------------------------
+ArgMin Corpus
+- Argumentative texts with labeled logical fallacies and weak reasoning
+- Best for: testing whether evaluator detects deliberately vague or uncommitted language
+- Link: https://huggingface.co/datasets/argmin
+
+VacuousLanguage / Political Speech Corpora
+- Speeches coded for hedging language and non-committal statements
+- Best for: detecting epistemic cowardice patterns
+- Search: "political hedging corpus" on HuggingFace and Google Scholar
+
+COMPONENT 4: SYCOPHANCY (CONVERSATIONAL - NO STATIC TEXT EQUIVALENT)
+----------------------------------------------------------------------
+lechmazur/sycophancy (GitHub)
+- Live leaderboard + benchmark for narrator-bias sycophancy
+- Tests whether a model sides with whoever is telling the story
+- Tests opposite-narrator contradictions and judgment consistency
+- Ground truth: known sycophantic vs non-sycophantic model outputs
+- Link: https://github.com/lechmazur/sycophancy
+
+SYCON Bench
+- Multi-turn conversational sycophancy evaluation
+- Most realistic for your use case — tests full conversations not single turns
+- Search: "SYCON Bench" on HuggingFace
+
+Anthropic Sycophancy Evals (Perez et al. 2022)
+- Foundational benchmark, tests position shift under pushback
+- Short conversations (2-3 turns), not ideal but useful baseline
+- Link: https://github.com/anthropics/evals
+
+COMPONENT 5: FAITHFULNESS (REASONING MATCHES CONCLUSION)
+----------------------------------------------------------
+FaithEval (Salesforce)
+- Tests whether model outputs are faithful to provided context
+- Directly relevant to faithfulness detection feature
+- Link: https://huggingface.co/collections/Salesforce/faitheval-benchmark-66ff102cda291ca0875212d4
+
+TruthfulQA
+- 817 questions testing whether models generate truthful answers
+- Covers 38 categories where models tend to produce falsehoods
+- Link: https://huggingface.co/datasets/truthful_qa
+
+EVALUATION STRATEGY
+====================
+
+Use component-level testing rather than one overall benchmark:
+
+1. Run MNLI + ContractNLI to get contradiction detection accuracy
+2. Run FEVER + LIAR to get factual accuracy detection score
+3. Run lechmazur/sycophancy for sycophancy detection
+4. Run FaithEval for faithfulness detection
+5. Report accuracy per component separately
+
+This tells you exactly what to fix rather than a meaningless overall score.
+
+TARGET ACCURACY (v1 prompt engineering, no fine-tuning):
+- Obvious contradiction cases: 85%+
+- Subtle contradiction cases: 60-70%
+- Factual accuracy flagging: 70%+
+- Sycophancy detection: 60-70%
+- False positive rate on clean texts: under 20%
+
+If you are below these numbers, your evaluation prompt needs work.
+If you are above these numbers, you have a strong v1 baseline.

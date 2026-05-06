@@ -1,0 +1,362 @@
+[
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 4,
+    "label_name": "contradiction",
+    "premise": "“Confidential Information” shall mean scientific, research, technical or business information pertaining to the Field, including but not limited to inventions; know-how; trade secrets; techniques; processes; designs; drawings; product designs; formulae and analysis; and any business information, including but not limited to price lists; customer lists; cost analyses; reports; surveys, market information and data.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 26,
+    "label_name": "contradiction",
+    "premise": "In consideration of the mutual exchange and disclosure of Confidential Information, each party undertakes in relation to the other party's Confidential Information: (a) to maintain the same in confidence and to use it only for the Purpose and for no other purpose and in particular, but without prejudice to the generality of the foregoing: (i) not to make any commercial use thereof; (ii) not to use the same for the benefit of itself or of any third (3rd) party other than pursuant to a further agreement with the.",
+    "hypothesis": "Receiving Party may create a copy of some Confidential Information in some circumstances."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 42,
+    "label_name": "contradiction",
+    "premise": "Any individual person or organization who is identified to receive and utilize the confidential information applicable to the related Challenge, whether as an employee or representative, must be disclosed to and approved by BPS and sign this agreement prior to commencing work on or engaging in participation in the Transportation Data Challenge.",
+    "hypothesis": "Receiving Party may share some Confidential Information with some third-parties (including consultants, agents and professional advisors)."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 46,
+    "label_name": "contradiction",
+    "premise": "Any individual person or organization who is identified to receive and utilize the confidential information applicable to the related Challenge, whether as an employee or representative, must be disclosed to and approved by BPS and sign this agreement prior to commencing work on or engaging in participation in the Transportation Data Challenge.",
+    "hypothesis": "Receiving Party may share some Confidential Information with some of Receiving Party's employees."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 53,
+    "label_name": "contradiction",
+    "premise": "\"Confidential Information\" means, subject to section 2.02 below any additional information requested by the Supplier and provided by CPR, or any information supplied by either party that is clearly marked “Confidential” or clearly intended to be disclosed in confidence.",
+    "hypothesis": "All Confidential Information shall be expressly identified by the Disclosing Party."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 68,
+    "label_name": "contradiction",
+    "premise": "1.1 With the understanding that CLIENT’s Formulations and Processing Procedures are proprietary to CLIENT, to the extent that CLIENT shall disclose to BROOKS personal, financial and product information, including their Formulations and Processing Procedures (“Confidential Information”), then all the Confidential Information disclosed to BROOKS shall be received by BROOKS in confidence for purposes of this Agreement except as otherwise provided under Section 3 below.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 99,
+    "label_name": "contradiction",
+    "premise": "WHEREAS, pursuant to the Demand and subject to the Stockholder executing this Agreement, the Company has agreed to allow the Stockholder to inspect the stockholder list (which, together with information or analyses derived from information made available for inspection, is referred to as the “Confidential Material”);",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 124,
+    "label_name": "contradiction",
+    "premise": "e) it will not make any copy of or abstract of the information without specific written permission from the disclosing party;",
+    "hypothesis": "Receiving Party may create a copy of some Confidential Information in some circumstances."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 133,
+    "label_name": "contradiction",
+    "premise": "1. Recipient may be provided with access to selected information (oral, written, or electronic) of the other (including of any of the Corporations) which helps meet a regulatory purpose or business need, including, but not limited to, that information which relates or refers to: business planning; internal controls; computer, data processing, or communications architectures or systems; electronic data processing architectures, applications, programs, routines, or subroutines; business affairs and methods of.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 156,
+    "label_name": "contradiction",
+    "premise": "d. The contractor, the contractor's employees, and any subcontractor and subcontractor's employees will access the VA information, software, applications, computer systems, and hardware which VA provides, or provides access to, only to the extent necessary, and only for the purpose of performing the contract. The contractor will take reasonable steps to ensure that it will allow only those contractor and subcontractor employees who need to see the VA materials in order to perform the contract to do so.",
+    "hypothesis": "Receiving Party may share some Confidential Information with some third-parties (including consultants, agents and professional advisors)."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 166,
+    "label_name": "contradiction",
+    "premise": "c) “Confidential Information” means any and all information, regardless of form, format or medium (including without limitation visual or oral information), of, related to, concerning, or resulting from, the City, the RFP and/or the Permitted Use, which comes into the possession or knowledge of the Confidant, including, without limitation, the RFP, documents, business information, know how, data, trade secrets, processes, designs, communications, materials, drawings, diagrams, computer programs, concepts, and any.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 173,
+    "label_name": "contradiction",
+    "premise": "a) Confidential Information shall be kept in the strictest confidence without limitation of time, and shall not be disclosed to any Third Party; b) Confidant shall restrict access to Confidential Information only to its employees with a need to know to carry out the Permitted Use, and prior to disclosing same, each such employee shall be made aware of the terms and conditions of this Agreement; and",
+    "hypothesis": "Receiving Party may share some Confidential Information with some third-parties (including consultants, agents and professional advisors)."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 183,
+    "label_name": "contradiction",
+    "premise": "2.1 For the purpose of this Agreement, “Confidential Information” means any information received by a Party (the “Receiving Party”) regarding the other Party’s (the “Disclosing Party”) business, research, products and/or services, such as all information and technology, including without limitation, research, inventions, manufacture methods, data, designs, plans, drawings, know-how, IT systems, software, processes, schematics, blueprints, records, reports, models, prototypes and descriptions related thereto.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 184,
+    "label_name": "contradiction",
+    "premise": "For the purpose of this Agreement, “Confidential Information” means any information received by a Party (the “Receiving Party”) regarding the other Party’s (the “Disclosing Party”) business, research, products and/or services, such as all information and technology, including without limitation, research, inventions, manufacture methods, data, designs, plans, drawings, know-how, IT systems, software, processes, schematics, blueprints, records, reports, models, prototypes and descriptions related thereto.",
+    "hypothesis": "All Confidential Information shall be expressly identified by the Disclosing Party."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 200,
+    "label_name": "contradiction",
+    "premise": "Each Party receiving Confidential Information (as defined below) (each, a \"Recipient,\" and together, the \"Recipients\"), is receiving confidential disclosure of certain confidential or proprietary technical, business, operational, financial and/or commercial information, trade secret information and/or any information of the other designated as “Confidential”, “Proprietary” or by similar designation, or which under the circumstances surrounding disclosure ought to be treated as confidential (\"Confidential.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 221,
+    "label_name": "contradiction",
+    "premise": "All such Confidential Information in tangible form shall be returned to the Owner promptly upon written request or the termination or expiration of this Agreement, and shall not thereafter be retained in any form by the Recipient, its Affiliates, or any employees or independent contractors of the Recipient or its Affiliates.",
+    "hypothesis": "Receiving Party may retain some Confidential Information even after the return or destruction of Confidential Information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 250,
+    "label_name": "contradiction",
+    "premise": "“Confidential Information” means confidential and proprietary information (regardless of whether such Confidential Information is in written, oral, visual or electronic form) (a) that consists of Trade Secrets (as hereinafter defined), discoveries, technical, engineering, financial, pricing and/or other business data and documentation, sales information, inventions, know-how, manufacturing techniques and specifications, process technologies, business plans, all disclosed by the disclosing party in furtherance of.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 257,
+    "label_name": "contradiction",
+    "premise": "The receiving party shall not disclose, disseminate, discuss or communicate any part or all of the Confidential Information to any third party, person or entity.",
+    "hypothesis": "Receiving Party may share some Confidential Information with some third-parties (including consultants, agents and professional advisors)."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 267,
+    "label_name": "contradiction",
+    "premise": "\"Confidential Information\" means any information of a confidential nature relating to the Disclosing Party or a member of its Group disclosed (whether before or after the date of this Agreement and whether in writing, verbally or by any other means and whether directly or indirectly) by the Disclosing Party or by another person on behalf of the Disclosing Party to the Receiving Party or to another person on behalf of the Receiving Party including, without limitation, any information relating to the Purpose or to.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 284,
+    "label_name": "contradiction",
+    "premise": "For purposes of this Agreement, \"Confidential Information\" shall include, without limitation, any information or other data relating to the Disclosing Party or any of its Affiliates, which is disclosed to the Receiving Party, whether prior to the conclusion of this Agreement, in terms of this Agreement or otherwise in connection with this Agreement or the Transaction (including but not limited to the Transaction itself and any negotiations in relation to the Transaction), including this Agreement, its contents and.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 285,
+    "label_name": "contradiction",
+    "premise": "For purposes of this Agreement, \"Confidential Information\" shall include, without limitation, any information or other data relating to the Disclosing Party or any of its Affiliates, which is disclosed to the Receiving Party, whether prior to the conclusion of this Agreement, in terms of this Agreement or otherwise in connection with this Agreement or the Transaction (including but not limited to the Transaction itself and any negotiations in relation to the Transaction), including this Agreement, its contents and.",
+    "hypothesis": "All Confidential Information shall be expressly identified by the Disclosing Party."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 288,
+    "label_name": "contradiction",
+    "premise": "The Disclosing Party may, at any time, request the Receiving Party to return any material containing, pertaining to or relating to Confidential Information disclosed by the Disclosing Party, its Affiliates or any of their respective employees, representatives, officers, directors or advisers, in relation to the Transaction and may, in addition, request the Receiving Party to furnish a written statement sworn under oath to the effect that, upon such return, neither the Receiving Party nor any of its Affiliates have.",
+    "hypothesis": "Receiving Party may retain some Confidential Information even after the return or destruction of Confidential Information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 300,
+    "label_name": "contradiction",
+    "premise": "“Confidential Information” means: (a) Information, including all personal data within the meaning of the Data Protection Act 1998, and however it is conveyed, provided by the Disclosing Party pursuant to [or in anticipation of] this Agreement that relates to: (i) the Disclosing Party Group; or (ii) the operations, business, affairs, developments, intellectual property rights, trade secrets, know-how and/or personnel of the Disclosing Party Group; (b) other Information provided by the Disclosing Party pursuant to.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 301,
+    "label_name": "contradiction",
+    "premise": "“Confidential Information” means: (a) Information, including all personal data within the meaning of the Data Protection Act 1998, and however it is conveyed, provided by the Disclosing Party pursuant to [or in anticipation of] this Agreement that relates to: (i) the Disclosing Party Group; or (ii) the operations, business, affairs, developments, intellectual property rights, trade secrets, know-how and/or personnel of the Disclosing Party Group; (b) other Information provided by the Disclosing Party pursuant to.",
+    "hypothesis": "All Confidential Information shall be expressly identified by the Disclosing Party."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 332,
+    "label_name": "contradiction",
+    "premise": "1. “Confidential Information” shall mean all information, whether communicated in oral, written, electronic or other form, furnished by BOMI or prepared by Attendee during the Testing Period, including, but not limited to, answers and notes made by Attendee during the Testing Period, any test questions and answers, any accompanying Test materials and like information, and any and all other Test information of, or provided by, BOMI.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 338,
+    "label_name": "contradiction",
+    "premise": "Without BOMI’s prior written consent, which may be given or withheld by BOMI in its sole and absolute discretion, Attendee will not at any time, whether during or after the Testing Period, (a) disclose any Confidential Information to any third party nor give any third party access thereto, nor",
+    "hypothesis": "Receiving Party may share some Confidential Information with some third-parties (including consultants, agents and professional advisors)."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 348,
+    "label_name": "contradiction",
+    "premise": "WHEREAS, BROOKSTECH has or may acquire certain information relating to design methods, procedures, components, structures, business, customers, sales, personnel, business planning, marketing, and manufacturing and desires to disclose such information to ____________ for the purposes of evaluating the design of devices and ____________ is willing to accept such information and as limited herein. WHEREAS, ____________ has or may acquire certain information relating to design methods, procedures, components.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 355,
+    "label_name": "contradiction",
+    "premise": "During this period the receiving party shall not disclose the received “Confidential Information” to any third party, and shall not use the received “Confidential Information” for any purpose other than the aforesaid purposes.",
+    "hypothesis": "Receiving Party may share some Confidential Information with some third-parties (including consultants, agents and professional advisors)."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 365,
+    "label_name": "contradiction",
+    "premise": "The term 'confidential information' includes, but is not limited to, all documents, drawings, data, subjects, information, records, knowhow, protected rights, inventions, ideas, concepts, knowledge, technology, design, specifications, including dimensions, tolerances, materials and connections, blueprints, diagrams, software, improvements, production procedures, production processes, formulae, all documents and information concerning the company, in particular administrative and commercial facts and details.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 372,
+    "label_name": "contradiction",
+    "premise": "7. As with the confidential information, no results obtained from that information may be disclosed to any third parties or made available otherwise without the DISCLOSER's consent in writing.",
+    "hypothesis": "Receiving Party may share some Confidential Information with some third-parties (including consultants, agents and professional advisors)."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 373,
+    "label_name": "contradiction",
+    "premise": "11. Documents which contain confidential information must not be reproduced or extracts made from them without the DISCLOSER's prior consent in writing.",
+    "hypothesis": "Receiving Party may create a copy of some Confidential Information in some circumstances."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 381,
+    "label_name": "contradiction",
+    "premise": "“Confidential Information” means any and all information and know-how that the Discloser and/or its Group Parties and/or its agents may from time to time disclose to the Recipient or the Recipient’s MUTUAL NON-DISCLOSURE AGREEMENT Group Parties during the course of the Matter or which otherwise becomes known to the Recipient either during the course of the Matter or during the course of any previous discussions, negotiations or relationship with the Discloser in relation to the Matter, whether orally, in writing.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 385,
+    "label_name": "contradiction",
+    "premise": "3. Each Party acknowledges and agrees: a. All Confidential Information acquired by either Party from the other Party shall be and shall remain the exclusive property of the disclosing Party or the member of its group providing it; b. To hold all Confidential Information in confidence and to procure that its representatives, advisers and associates hold all such Confidential Information in confidence. MUTUAL NON-DISCLOSURE AGREEMENT c. To limit access to such Confidential Information to authorised individuals (the.",
+    "hypothesis": "Receiving Party may retain some Confidential Information even after the return or destruction of Confidential Information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 403,
+    "label_name": "contradiction",
+    "premise": "3. Company shall not (i) use any portion of the Confidential Information for any purpose except to evaluate the RFP, including assessment of each Statement of Work under the RFP, in order to prepare its response to the RFP or (ii) disclose the Confidential Information or any part of it to any third party without the prior written consent of the AOC; provided, however, that Confidential Information shall not include any information of the AOC that:",
+    "hypothesis": "Receiving Party may share some Confidential Information with some third-parties (including consultants, agents and professional advisors)."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 413,
+    "label_name": "contradiction",
+    "premise": "1. Subject to the limitations set forth herein, “Confidential Information” means any and all confidential, proprietary or trade secret information of Disclosing Party (whether oral, written, electronic or otherwise), including but not limited to marketing and sales data, customer lists, customer requirements, price lists, product and service lists, market studies, financial statements, business plans, the names and backgrounds of key personnel, research and development, service methods, processes, improvements.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 444,
+    "label_name": "contradiction",
+    "premise": "(b) “ConfidentialInformation” means all information, whether visual, written, electronic or ​ ​ ​ oral, (including any information furnished prior to the execution of this Agreement) related to the products, services, technology, business, customers, working capital, affairs, assets, condition (financial or otherwise) or prospects of a Disclosing Party which is furnished by such Disclosing Party, or otherwise disclosed by such Disclosing Party, to a Receiving Party in connection with the consideration and.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 461,
+    "label_name": "contradiction",
+    "premise": "This information may include, but is not limited to, patient health records, as well as information regarding human resources, payroll, fiscal matters, research, and strategic planning, and may exist in any form, including electronic, video, spoken, or written.",
+    "hypothesis": "Confidential Information shall only include technical information."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 468,
+    "label_name": "contradiction",
+    "premise": "I hereby agree as follows:  I will maintain patient privacy and protect and safeguard the confidentiality and security of PHI and FAU Confidential Information in accordance with Florida and federal laws and FAU policies and procedures.  I understand that access to health information created, received, or maintained by FAU or its affiliates is limited to those who have a valid business, medical, or professional need to know the information. I understand that FAU has implemented administrative, technical, and.",
+    "hypothesis": "Receiving Party may share some Confidential Information with some third-parties (including consultants, agents and professional advisors)."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 503,
+    "label_name": "contradiction",
+    "premise": "9. The Information being made available is confidential and may not be photocopied, reproduced or distributed to any other person at any time, except for the purposes of obtaining professional advice, without the prior written consent of BDO.",
+    "hypothesis": "Receiving Party may create a copy of some Confidential Information in some circumstances."
+  },
+  {
+    "source_dataset": "kiddothe2b/contract-nli",
+    "source_config": "contractnli_a",
+    "source_split": "validation",
+    "source_row_idx": 511,
+    "label_name": "contradiction",
+    "premise": "Information disclosed by the Disclosing Party to the Receiving Party need not be identified as “confidential” to be deemed “Confidential Information” pursuant to this Agreement.",
+    "hypothesis": "All Confidential Information shall be expressly identified by the Disclosing Party."
+  }
+]

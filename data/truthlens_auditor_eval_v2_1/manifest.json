@@ -1,0 +1,251 @@
+{
+  "name": "truthlens_auditor_eval_v2_1",
+  "version": "mechanism_primary_failure_v2_1",
+  "generated_at_unix": 1777641998,
+  "generation_seed": 1776,
+  "primary_failures": [
+    "CONFLICTING_CLAIMS",
+    "UNSUPPORTED_OR_OVERCONFIDENT_CLAIM",
+    "SOURCE_OR_EVIDENCE_ERROR",
+    "USER_CONTEXT_OR_MEMORY_ERROR",
+    "INSTRUCTION_OR_CONSTRAINT_ERROR",
+    "REASONING_OR_BAD_PREMISE_ERROR",
+    "DECISION_CRITICAL_OMISSION"
+  ],
+  "secondary_tags": [
+    "GOAL_MISALIGNMENT",
+    "SYCOPHANCY",
+    "EPISTEMIC_EVASION",
+    "CONCLUSION_MISMATCH",
+    "BAD_PREMISE_ENDORSEMENT",
+    "MISSING_CAVEAT",
+    "LONG_CONTEXT_DEPENDENCY",
+    "HIGH_STAKES"
+  ],
+  "legacy_categories": [
+    "CONTRADICTION",
+    "UNSUPPORTED_CONFIDENCE",
+    "FABRICATION_OR_SOURCE_DRIFT",
+    "SYCOPHANCY",
+    "FAILURE_TO_CHALLENGE_BAD_REASONING",
+    "EPISTEMIC_EVASION",
+    "MISSING_CRITICAL_CAVEAT",
+    "GOAL_MISALIGNMENT",
+    "INSTRUCTION_OR_CONSTRAINT_VIOLATION",
+    "REASONING_CONCLUSION_MISMATCH",
+    "MEMORY_OR_CONTEXT_MISUSE"
+  ],
+  "primary_failure_by_legacy_category": {
+    "CONTRADICTION": "CONFLICTING_CLAIMS",
+    "UNSUPPORTED_CONFIDENCE": "UNSUPPORTED_OR_OVERCONFIDENT_CLAIM",
+    "FABRICATION_OR_SOURCE_DRIFT": "SOURCE_OR_EVIDENCE_ERROR",
+    "SYCOPHANCY": "REASONING_OR_BAD_PREMISE_ERROR",
+    "FAILURE_TO_CHALLENGE_BAD_REASONING": "REASONING_OR_BAD_PREMISE_ERROR",
+    "EPISTEMIC_EVASION": "REASONING_OR_BAD_PREMISE_ERROR",
+    "MISSING_CRITICAL_CAVEAT": "DECISION_CRITICAL_OMISSION",
+    "GOAL_MISALIGNMENT": "INSTRUCTION_OR_CONSTRAINT_ERROR",
+    "INSTRUCTION_OR_CONSTRAINT_VIOLATION": "INSTRUCTION_OR_CONSTRAINT_ERROR",
+    "REASONING_CONCLUSION_MISMATCH": "REASONING_OR_BAD_PREMISE_ERROR",
+    "MEMORY_OR_CONTEXT_MISUSE": "USER_CONTEXT_OR_MEMORY_ERROR"
+  },
+  "secondary_tags_by_legacy_category": {
+    "SYCOPHANCY": [
+      "SYCOPHANCY"
+    ],
+    "FAILURE_TO_CHALLENGE_BAD_REASONING": [
+      "BAD_PREMISE_ENDORSEMENT"
+    ],
+    "EPISTEMIC_EVASION": [
+      "EPISTEMIC_EVASION"
+    ],
+    "MISSING_CRITICAL_CAVEAT": [
+      "MISSING_CAVEAT"
+    ],
+    "GOAL_MISALIGNMENT": [
+      "GOAL_MISALIGNMENT"
+    ],
+    "REASONING_CONCLUSION_MISMATCH": [
+      "CONCLUSION_MISMATCH"
+    ],
+    "MEMORY_OR_CONTEXT_MISUSE": [
+      "GOAL_MISALIGNMENT"
+    ]
+  },
+  "token_estimate": "len(text) // 4 per turn",
+  "chunking_assumptions": {
+    "chunk_max_tokens": 12000,
+    "chunk_overlap_turns": 4,
+    "filler_assistant_tokens": 2000
+  },
+  "example_counts": {
+    "unit": 165,
+    "packed_long": 10,
+    "total": 175
+  },
+  "issue_counts_by_primary_failure": {
+    "CONFLICTING_CLAIMS": {
+      "positive": 20,
+      "trap": 10,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 5
+    },
+    "UNSUPPORTED_OR_OVERCONFIDENT_CLAIM": {
+      "positive": 20,
+      "trap": 10,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 5
+    },
+    "SOURCE_OR_EVIDENCE_ERROR": {
+      "positive": 20,
+      "trap": 10,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 5
+    },
+    "USER_CONTEXT_OR_MEMORY_ERROR": {
+      "positive": 20,
+      "trap": 10,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 5
+    },
+    "INSTRUCTION_OR_CONSTRAINT_ERROR": {
+      "positive": 40,
+      "trap": 22,
+      "unit_positive": 20,
+      "unit_trap": 10,
+      "packed_positive": 20,
+      "packed_trap": 12
+    },
+    "REASONING_OR_BAD_PREMISE_ERROR": {
+      "positive": 80,
+      "trap": 42,
+      "unit_positive": 40,
+      "unit_trap": 20,
+      "packed_positive": 40,
+      "packed_trap": 22
+    },
+    "DECISION_CRITICAL_OMISSION": {
+      "positive": 20,
+      "trap": 11,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 6
+    }
+  },
+  "issue_counts_by_legacy_category": {
+    "CONTRADICTION": {
+      "positive": 20,
+      "trap": 10,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 5
+    },
+    "UNSUPPORTED_CONFIDENCE": {
+      "positive": 20,
+      "trap": 10,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 5
+    },
+    "FABRICATION_OR_SOURCE_DRIFT": {
+      "positive": 20,
+      "trap": 10,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 5
+    },
+    "SYCOPHANCY": {
+      "positive": 20,
+      "trap": 10,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 5
+    },
+    "FAILURE_TO_CHALLENGE_BAD_REASONING": {
+      "positive": 20,
+      "trap": 10,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 5
+    },
+    "EPISTEMIC_EVASION": {
+      "positive": 20,
+      "trap": 11,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 6
+    },
+    "MISSING_CRITICAL_CAVEAT": {
+      "positive": 20,
+      "trap": 11,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 6
+    },
+    "GOAL_MISALIGNMENT": {
+      "positive": 20,
+      "trap": 11,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 6
+    },
+    "INSTRUCTION_OR_CONSTRAINT_VIOLATION": {
+      "positive": 20,
+      "trap": 11,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 6
+    },
+    "REASONING_CONCLUSION_MISMATCH": {
+      "positive": 20,
+      "trap": 11,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 6
+    },
+    "MEMORY_OR_CONTEXT_MISUSE": {
+      "positive": 20,
+      "trap": 10,
+      "unit_positive": 10,
+      "unit_trap": 5,
+      "packed_positive": 10,
+      "packed_trap": 5
+    }
+  },
+  "chunk_relation_counts": {
+    "same_chunk": 241,
+    "adjacent_cross_chunk": 48,
+    "far_cross_chunk": 46
+  },
+  "source_dataset_counts": {
+    "nyu-mll/multi_nli": 30,
+    "synthetic_template": 217,
+    "pminervini/HaluEval": 30,
+    "EleutherAI/sycophancy": 30,
+    "google/IFEval": 28
+  },
+  "files": {
+    "unit_examples": "data/truthlens_auditor_eval_v2_1/unit_examples.jsonl",
+    "packed_long_examples": "data/truthlens_auditor_eval_v2_1/packed_long_examples.jsonl",
+    "label_manifest": "data/truthlens_auditor_eval_v2_1/label_manifest.json",
+    "readme": "data/truthlens_auditor_eval_v2_1/README.md"
+  }
+}

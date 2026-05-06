@@ -1,0 +1,802 @@
+[
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 1,
+    "values": {
+      "premise": "This site includes a list of all award winners and a searchable database of Government Executive articles.",
+      "hypothesis": "The Government Executive articles housed on the website are not able to be searched."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 3,
+    "values": {
+      "premise": "yeah i i think my favorite restaurant is always been the one closest you know the closest as long as it's it meets the minimum criteria you know of good food",
+      "hypothesis": "My favorite restaurants are always at least a hundred miles away from my house."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 5,
+    "values": {
+      "premise": "well that would be a help i wish they would do that here we have got so little landfill space left that we're going to run out before the end of this decade and it's really going to be",
+      "hypothesis": "We have plenty of space in the landfill."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 6,
+    "values": {
+      "premise": "yeah i know and i did that all through college and it worked too",
+      "hypothesis": "I did that all through college but it never worked"
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 8,
+    "values": {
+      "premise": "If that investor were willing to pay extra for the security of limited downside, she could buy put options with a strike price of $98, which would lock in her profit on the shares at $18, less whatever the options cost.",
+      "hypothesis": "THe strike price could be $8."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 10,
+    "values": {
+      "premise": "The most important directions are simply up and up leads eventually to the cathedral and fortress commanding the hilltop, and down inevitably leads to one of three gates through the wall to the new town.",
+      "hypothesis": "Go downwards to one of the gates, all of which will lead you into the cathedral."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 11,
+    "values": {
+      "premise": "The bhakti movement of the Tamils brought a new warmth to the hitherto rigid Brahmanic ritual of Hinduism.",
+      "hypothesis": "The Tamils' bhakti movement froze the previously warm ritual of Hinduism."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 12,
+    "values": {
+      "premise": "see now in a situation like that the boys are only sixteen years old and they were sexually involved with her and i think like at that particular point she was twenty three you know so she wasn't really that much older than them and being a boy at that age i think that they're very um you know let's face it that's at a point in your life when you you're.",
+      "hypothesis": "Everyone involved was the same age."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 19,
+    "values": {
+      "premise": "So far, however, the number of mail pieces lost to alternative bill-paying methods is too small to have any material impact on First-Class volume.",
+      "hypothesis": "The amount of lost mail is huge and really impacts mail volume"
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 25,
+    "values": {
+      "premise": "Sorry but that's how it is.",
+      "hypothesis": "This is how things are and there are no apologies about it."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 27,
+    "values": {
+      "premise": "The tourist industry continued to expand, and though it became one of the top two income earners in Spain, a realization that unrestricted mass tourism was leading to damaging long-term consequences also began to grow.",
+      "hypothesis": "Tourism is not very big in Spain."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 32,
+    "values": {
+      "premise": "Conversely, an increase in government saving adds to the supply of resources available for investment and may put downward pressure on interest rates.",
+      "hypothesis": "Interest rates should increase to increase saving."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 39,
+    "values": {
+      "premise": "In Hong Kong you can have a plate, or even a whole dinner service, hand-painted to your own design.",
+      "hypothesis": "It's impossible to have a plate hand-painted to your own design in Hong Kong."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 41,
+    "values": {
+      "premise": "What's truly striking, though, is that Jobs has never really let this idea go.",
+      "hypothesis": "Jobs never held onto an idea for long."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 43,
+    "values": {
+      "premise": "But to you, who know the truth, I propose to read certain passages which will throw some light on the extraordinary mentality of this great man.\" He opened the book, and turned the thin pages.",
+      "hypothesis": "There is no information on the mentality of the man, extraordinary or not, contained within the thin-paged book."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 44,
+    "values": {
+      "premise": "yeah i mean just when uh the they military paid for her education",
+      "hypothesis": "The military didn't pay for her education."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 45,
+    "values": {
+      "premise": "but uh these guys were actually on the road uh two thousand miles from from home when they had to file their uh their final exams and send them in",
+      "hypothesis": "These men filed their midterm exams from home."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 51,
+    "values": {
+      "premise": "He hadn't seen even pictures of such things since the few silent movies run in some of the little art theaters.",
+      "hypothesis": "He had recently seen pictures depicting those things."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 54,
+    "values": {
+      "premise": "yeah and how about how about like on the weekends do you do sports or do you go out",
+      "hypothesis": "No one plays sports on the weekend."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 58,
+    "values": {
+      "premise": "She has exchanged a hollow life for a heightened life, and has tried to comprehend all its turns, get its possibilities.",
+      "hypothesis": "She has chose to live a hollow life."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 64,
+    "values": {
+      "premise": "Credibility is a vital factor, and Jim Lehrer does, indeed, have it.",
+      "hypothesis": "Jim Lehrer has no credibility whatsoever."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 67,
+    "values": {
+      "premise": "Even if you're the kind of traveler who likes to improvise and be adventurous, don't turn your nose up at the tourist offices.",
+      "hypothesis": "There's nothing worth seeing in the tourist offices."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 70,
+    "values": {
+      "premise": "Still, it would be interesting to know. 109 Poirot looked at me very earnestly, and again shook his head.",
+      "hypothesis": "Poirot did not look at me."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 72,
+    "values": {
+      "premise": "There are no shares of a stock that might someday come back, just piles of options as worthless as those shares of Cook's American Business Alliance.",
+      "hypothesis": "Cook's American Business Alliance caused shares of stock to come back."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 73,
+    "values": {
+      "premise": "One thing was worrying me dreadfully, but my heart gave a great throb of relief when I saw my ulster lying carelessly over the back of a chair.",
+      "hypothesis": "I was dreadfully worried about many things."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 74,
+    "values": {
+      "premise": "Do you think Mrs. Inglethorp made a will leaving all her money to Miss Howard? I asked in a low voice, with some curiosity.",
+      "hypothesis": "I yelled at the top of my lungs."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 78,
+    "values": {
+      "premise": "oh i don't know either the other growing up all i knew was",
+      "hypothesis": "I know because I learned it growing up"
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 79,
+    "values": {
+      "premise": "WHOLE LIFE POLICIES - Policies that provide insurance over the insured's entire life and the proceeds (face amount) are paid only upon death of the insured.",
+      "hypothesis": "Whole life policies are a type of life insurance that only cover the insured person until retirement from the workforce."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 83,
+    "values": {
+      "premise": "it's actually there well Iraq has had uh designs on that place since nineteen twenty two so you know it wasn't like something that just suddenly popped up",
+      "hypothesis": "The weird thing is that Iraq was never interested in that place until now."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 85,
+    "values": {
+      "premise": "Prototyping, for example, may act as part of the requirements definition process, helping the agency identify and control areas of high uncertainty and technical risk.",
+      "hypothesis": "Prototyping is not important, testing with the actual finished product is better."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 92,
+    "values": {
+      "premise": "if the United States had used full conventional power.",
+      "hypothesis": "The United States has no power to use."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 108,
+    "values": {
+      "premise": "June 21, 1995, provides the specific requirements for assessing and reporting on controls.",
+      "hypothesis": "There are no specific requirements for assessment."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 109,
+    "values": {
+      "premise": "This is especially true on Menorca, where cold winter winds limit the season's length.",
+      "hypothesis": "This is especially untrue on Menorca, where warm summer weather extends the season's length."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 110,
+    "values": {
+      "premise": "Over most of the 1980s and 1990s, the U.S. was able to invest more than it saved by attracting financing from abroad.",
+      "hypothesis": "The US could save more than it invested in the 1980's and 90's."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 123,
+    "values": {
+      "premise": "In 1998, Cesar Chavez fasted for 36 days in California to underscore the dangers of pesticides to farm workers and their children.",
+      "hypothesis": "Cesar Chavez was not concerned about the dangers of pesticide use."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 126,
+    "values": {
+      "premise": "However, in the off-field (sentimental) tournament, the Falcons and Jets have more appealing story lines.",
+      "hypothesis": "The Jets and Falcons have boring stories."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 132,
+    "values": {
+      "premise": "They made little effort, despite the Jesuit presence in Asia, to convert local inhabitants to Christianity or to expand their territory into the interior.",
+      "hypothesis": "The Jesuit presence in Asia helped to convert local residents to Christianity, allowing them to expand their territory."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 133,
+    "values": {
+      "premise": "Dirt mounds surrounded the pit so that the spectators stood five or six people deep around the edge of the pit.",
+      "hypothesis": "The ground is totally flat."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 137,
+    "values": {
+      "premise": "There's only one thing for me to do.\"",
+      "hypothesis": "There's a few things left for me to do."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 144,
+    "values": {
+      "premise": "Sometimes it flattens entire neighbourhoods to make life easier for them.",
+      "hypothesis": "All neighborhoods are perfectly safe in their pursuit of an easier life."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 149,
+    "values": {
+      "premise": "You will find two principal fino and olorose",
+      "hypothesis": "You won't find any fino or olorose."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 150,
+    "values": {
+      "premise": "The sooner we strike the better.\" He turned to Tuppence.",
+      "hypothesis": "He convinced Tuppence to hold off on their action plan."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 158,
+    "values": {
+      "premise": "The WP runs a piece inside reporting that during a church service last Sunday, Cardinal John O'Connor of New York criticized President Clinton from the pulpit for taking Catholic communion while in South Africa.",
+      "hypothesis": "The WP runs a piece outside reporting"
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 160,
+    "values": {
+      "premise": "For big Raj-buffs, the supreme example of Indo-Gothic style is the Victoria Terminus, affectionately abbreviated to VT nowadays, once the railway station that launched adventures inland, now handling mostly suburban traffic.",
+      "hypothesis": "The Victoria Terminus is still the main departure point for travelers heading deeper into the country."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 162,
+    "values": {
+      "premise": "The only drawback is, of course, the large crowds in summer.",
+      "hypothesis": "It is pretty much deserted in July."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 166,
+    "values": {
+      "premise": "were sort of a double sign with a a big miles per hour and a little kilometers per hour type uh marking on the side",
+      "hypothesis": "A sign that only displays mph."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 168,
+    "values": {
+      "premise": "Another alternative is that our heroes were pursuing the noble goal of academics everywhere--tenure.",
+      "hypothesis": "Our heroes aren't going for any academic goals."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 172,
+    "values": {
+      "premise": "By then, the program had added Carroll and Grayson counties and the city of Galax and had five attorneys.",
+      "hypothesis": "The program had only one single attorney."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 176,
+    "values": {
+      "premise": "Even the lower limit of that differential compounds to a hefty sum over time.",
+      "hypothesis": "The differential will not grow."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 180,
+    "values": {
+      "premise": "The flame or whatever it was had enough heat, but it was hard to control.",
+      "hypothesis": "The flame was easy to control, but lacked heat."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 186,
+    "values": {
+      "premise": "Tell me, how did those scribbled words on the envelope help you to discover that a will was made yesterday afternoon?\" Poirot smiled.",
+      "hypothesis": "How could you not figure out that there was a will written yesterday?"
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 191,
+    "values": {
+      "premise": "of course you could annex Cuba but they wouldn't like that a bit",
+      "hypothesis": "Annexing Cuba is a great idea."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 194,
+    "values": {
+      "premise": "They are levied through the power of the Government to compel payment, and the person or entity that pays these fees does not receive anything of value from the Government in exchange.",
+      "hypothesis": "They are not levied through the power of the Government to compel payment."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 197,
+    "values": {
+      "premise": "Sir James's presence in Manchester was not accidental.",
+      "hypothesis": "Manchester was not the place that Sir James had intended to go."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 207,
+    "values": {
+      "premise": "well i think i got to agree with you there",
+      "hypothesis": "I could not agree with you."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 211,
+    "values": {
+      "premise": "The Balanced Scorecard Institute is a web clearinghouse for managers to exchange information, ideas, and lessons learned in building strategic management systems using the balanced scorecard approach.",
+      "hypothesis": "The Balanced Scorecard has recently closed due to a lack of interest."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 215,
+    "values": {
+      "premise": "Even us if you needed,\" said Jon.",
+      "hypothesis": "He told them not to ask him to lift a finger."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 216,
+    "values": {
+      "premise": "News berates computer users for picking obvious, easily cracked passwords and chastises system administrators for ignoring basic security precautions.",
+      "hypothesis": "News outlets do not blame users or system administrators for security breaches."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 218,
+    "values": {
+      "premise": "No one was there, no bones at all.",
+      "hypothesis": "There were many bones in a pile."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 221,
+    "values": {
+      "premise": "well that's uh i agree with you there i mean he didn't have the surrounding cast that Montana had there's no doubt about that",
+      "hypothesis": "I don't agree when you say that he didn't have as much support as Montana."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 223,
+    "values": {
+      "premise": "There are many such at the present time.",
+      "hypothesis": "There are none at all."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 226,
+    "values": {
+      "premise": "It was planned in the 1820s as a symbol of Scottish national pride and designed as a mini-Parthenon, in deference to the neoclassical style popular at the time.",
+      "hypothesis": "It was designed to look just like the White House."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 235,
+    "values": {
+      "premise": "A re-created street of colonial Macau is lined with traditional Chinese shops.",
+      "hypothesis": "This street, formerly a colonial site, is now home to modern high-rise development."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 237,
+    "values": {
+      "premise": "it would probably be a lot more work and probably not turn out as good",
+      "hypothesis": "Oh that way sounds great, it could turn out even better"
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 240,
+    "values": {
+      "premise": "During the half-century of its existence, Israel has absorbed approximately 2.5 million Jewish immigrants, displaced persons, refugees, and survivors of the Nazi Holocaust.",
+      "hypothesis": "Israel shunned the Jewish people from entering to escape the Nazi Holocaust."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 244,
+    "values": {
+      "premise": "Also, under credit reform, the credit subsidy cost is recorded as an outlay when a direct or guaranteed loan is disbursed.",
+      "hypothesis": "The credit subsidy cost is never recorded as an outlay under any circumstances."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 246,
+    "values": {
+      "premise": "OMB has approved the information collection contained on the Form ADV and has",
+      "hypothesis": "OMB staunchly opposed the information collection contained on the Form ADV."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 248,
+    "values": {
+      "premise": "Finally, the FDA will conduct workshops, issue guidance manuals and videotapes, and hold teleconferences to aid small entities in complying with the rule.",
+      "hypothesis": "The FDA will only issue videotapes."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 253,
+    "values": {
+      "premise": "uh-huh well maybe well i've enjoyed talking to you okay bye-bye",
+      "hypothesis": "I hated talking to you."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 260,
+    "values": {
+      "premise": "Tom is the winner of a year's supply of Turtle Wax, and he will receive his prize just as soon as the Shopping Avenger figures out how much Turtle Wax actually constitutes a year's supply.",
+      "hypothesis": "There are no winners of the one year supply of Turtle wax."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 268,
+    "values": {
+      "premise": "Divers can explore the deeps but you can also snorkel here, or take a glass-bottom boat or submarine tour to get a glimpse of this watery world.",
+      "hypothesis": "Divers do not like to explore the deeps here."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 271,
+    "values": {
+      "premise": "Why blame her because she had been true to her creed?",
+      "hypothesis": "She was not faithful to her own belief system."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 272,
+    "values": {
+      "premise": "Oh, my friend, have I not said to you all along that I have no proofs.",
+      "hypothesis": "I've always had the proof that he did it."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 273,
+    "values": {
+      "premise": "Companies that were foreign had to accept Indian financial participation and management.",
+      "hypothesis": "Foreign companies had to take Italian money."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 277,
+    "values": {
+      "premise": "And really it's a great relief to think he's going, Hastings, continued my honest friend.",
+      "hypothesis": "\"Are you sure we can't do anything to keep him here?,\" admitted my long-time nemesis."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 282,
+    "values": {
+      "premise": "Like the Japanese, Chinese, and Portuguese before them, many of the new peoples would stay on in Hawaii, adding to the ethnic and racial mix that has become a hallmark of the islands.",
+      "hypothesis": "Hawaii was homogenous."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 283,
+    "values": {
+      "premise": "It was other-worldly.",
+      "hypothesis": "It was grounded in reality."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 284,
+    "values": {
+      "premise": "Voluntariness of risks is evaluated.",
+      "hypothesis": "No evaluation is being done of risks."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 286,
+    "values": {
+      "premise": "Thus, the net scale benefit is initially positive, whether or not we adjust for the wage premium.",
+      "hypothesis": "Initial net scale benefits are negative when adjusted for the wage premium."
+    }
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 287,
+    "values": {
+      "premise": "The stuff was strong, but somewhat brittle.",
+      "hypothesis": "It was incredibly strong and not brittle at all."
+    }
+  }
+]

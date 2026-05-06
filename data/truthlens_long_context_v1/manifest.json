@@ -1,0 +1,271 @@
+{
+  "name": "truthlens_long_context_v1",
+  "version": "pilot_100",
+  "generated_at_unix": 1777517538,
+  "generation_seed": 42,
+  "example_count": 100,
+  "category_counts": {
+    "clean_no_issue": 20,
+    "local_contradiction": 20,
+    "cross_chunk_contradiction": 20,
+    "far_distance_contradiction": 20,
+    "allowed_revision": 20
+  },
+  "target_band_counts": {
+    "300k": 25,
+    "500k": 25,
+    "750k": 25,
+    "1m": 25
+  },
+  "token_estimate": "len(text) // 4 per turn",
+  "chunking_assumptions": {
+    "chunk_max_tokens": 180000,
+    "chunk_overlap_turns": 10,
+    "assistant_chunk_estimated_tokens": 10000
+  },
+  "source_datasets": [
+    "emozilla/pg19",
+    "nyu-mll/multi_nli",
+    "kiddothe2b/contract-nli"
+  ],
+  "base_sources_used": [
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 0,
+      "title": "Reminiscences of Pioneer Days in St. Paul by Frank Moore",
+      "url": "http://www.gutenberg.org/ebooks/10146",
+      "chars": 245968
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 1,
+      "title": "Dragon's blood by Henry Milner Rideout",
+      "url": "http://www.gutenberg.org/ebooks/10321",
+      "chars": 317990
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 2,
+      "title": "Travels in Morocco Volume 2 by James Richardson",
+      "url": "http://www.gutenberg.org/ebooks/10356",
+      "chars": 308313
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 3,
+      "title": "Impressions of Theophrastus Such by George Eliot",
+      "url": "http://www.gutenberg.org/ebooks/10762",
+      "chars": 342938
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 5,
+      "title": "The S. W. F. Club by Caroline E. Jacobs",
+      "url": "http://www.gutenberg.org/ebooks/15562",
+      "chars": 215464
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 6,
+      "title": "Frank Merriwell Down South by Burt L. Standish",
+      "url": "http://www.gutenberg.org/ebooks/22424",
+      "chars": 430990
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 7,
+      "title": "Critical Miscellanies (Vol. 2 of 3) by John Morley",
+      "url": "http://www.gutenberg.org/ebooks/24553",
+      "chars": 127436
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 8,
+      "title": "From Sand Hill to Pine by Bret Harte",
+      "url": "http://www.gutenberg.org/ebooks/2544",
+      "chars": 345593
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 9,
+      "title": "Child's Health Primer For Primary Classes by Jane Andrews",
+      "url": "http://www.gutenberg.org/ebooks/25646",
+      "chars": 95251
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 10,
+      "title": "On the Portraits of English Authors on Gardening by Samuel Felton",
+      "url": "http://www.gutenberg.org/ebooks/25773",
+      "chars": 474941
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 11,
+      "title": "Discourse of a Method for the Well Guiding of Reason by Rene Descartes",
+      "url": "http://www.gutenberg.org/ebooks/25830",
+      "chars": 121223
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 12,
+      "title": "Laurence Sterne in Germany by Harvey Waterman Thayer",
+      "url": "http://www.gutenberg.org/ebooks/26183",
+      "chars": 453103
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 13,
+      "title": "The Forester's Daughter by Hamlin Garland",
+      "url": "http://www.gutenberg.org/ebooks/26239",
+      "chars": 346168
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 14,
+      "title": "The Life of Gordon Volume II by Demetrius Charles Boulger",
+      "url": "http://www.gutenberg.org/ebooks/26493",
+      "chars": 538249
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 15,
+      "title": "Minnie's Pet Monkey by Madeline Leslie",
+      "url": "http://www.gutenberg.org/ebooks/26618",
+      "chars": 55798
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 16,
+      "title": "In Her Own Right by John Reed Scott",
+      "url": "http://www.gutenberg.org/ebooks/27454",
+      "chars": 391621
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 17,
+      "title": "Turn About Eleanor by Ethel M. Kelley",
+      "url": "http://www.gutenberg.org/ebooks/28444",
+      "chars": 325248
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 18,
+      "title": "Jennie Gerhardt by Theodore Dreiser",
+      "url": "http://www.gutenberg.org/ebooks/28988",
+      "chars": 721576
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 19,
+      "title": "Red White Blue Socks Part Second by Sarah L. Barrow",
+      "url": "http://www.gutenberg.org/ebooks/29594",
+      "chars": 81419
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 20,
+      "title": "The 'Patriotes' of '37 by Alfred D. Decelles",
+      "url": "http://www.gutenberg.org/ebooks/29973",
+      "chars": 164477
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 21,
+      "title": "Carmen Ariza by Charles Francis Stocking",
+      "url": "http://www.gutenberg.org/ebooks/30312",
+      "chars": 2448723
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 22,
+      "title": "Vestiges of the Mayas by Augustus Le Plongeon",
+      "url": "http://www.gutenberg.org/ebooks/30752",
+      "chars": 168682
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 23,
+      "title": "The Stones of Venice Volume I (of 3) by John Ruskin",
+      "url": "http://www.gutenberg.org/ebooks/30754",
+      "chars": 894966
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 24,
+      "title": "The Church: Her Books and Her Sacraments by E. E. Holmes",
+      "url": "http://www.gutenberg.org/ebooks/30909",
+      "chars": 184553
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 25,
+      "title": "The Real Latin Quarter by F. Berkeley Smith",
+      "url": "http://www.gutenberg.org/ebooks/30981",
+      "chars": 150039
+    },
+    {
+      "dataset": "emozilla/pg19",
+      "config": "default",
+      "split": "test",
+      "row_idx": 26,
+      "title": "Try Again by Oliver Optic",
+      "url": "http://www.gutenberg.org/ebooks/31065",
+      "chars": 267731
+    }
+  ],
+  "files": {
+    "examples": "data/truthlens_long_context_v1/examples.jsonl",
+    "readme": "data/truthlens_long_context_v1/README.md"
+  }
+}

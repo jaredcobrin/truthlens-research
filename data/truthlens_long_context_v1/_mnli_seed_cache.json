@@ -1,0 +1,1262 @@
+[
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 1,
+    "label_name": "contradiction",
+    "premise": "This site includes a list of all award winners and a searchable database of Government Executive articles.",
+    "hypothesis": "The Government Executive articles housed on the website are not able to be searched."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 3,
+    "label_name": "contradiction",
+    "premise": "yeah i i think my favorite restaurant is always been the one closest you know the closest as long as it's it meets the minimum criteria you know of good food",
+    "hypothesis": "My favorite restaurants are always at least a hundred miles away from my house."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 5,
+    "label_name": "contradiction",
+    "premise": "well that would be a help i wish they would do that here we have got so little landfill space left that we're going to run out before the end of this decade and it's really going to be",
+    "hypothesis": "We have plenty of space in the landfill."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 6,
+    "label_name": "contradiction",
+    "premise": "yeah i know and i did that all through college and it worked too",
+    "hypothesis": "I did that all through college but it never worked"
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 8,
+    "label_name": "contradiction",
+    "premise": "If that investor were willing to pay extra for the security of limited downside, she could buy put options with a strike price of $98, which would lock in her profit on the shares at $18, less whatever the options cost.",
+    "hypothesis": "THe strike price could be $8."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 10,
+    "label_name": "contradiction",
+    "premise": "The most important directions are simply up and up leads eventually to the cathedral and fortress commanding the hilltop, and down inevitably leads to one of three gates through the wall to the new town.",
+    "hypothesis": "Go downwards to one of the gates, all of which will lead you into the cathedral."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 11,
+    "label_name": "contradiction",
+    "premise": "The bhakti movement of the Tamils brought a new warmth to the hitherto rigid Brahmanic ritual of Hinduism.",
+    "hypothesis": "The Tamils' bhakti movement froze the previously warm ritual of Hinduism."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 12,
+    "label_name": "contradiction",
+    "premise": "see now in a situation like that the boys are only sixteen years old and they were sexually involved with her and i think like at that particular point she was twenty three you know so she wasn't really that much older than them and being a boy at that age i think that they're very um you know let's face it that's at a point in your life when you you're.",
+    "hypothesis": "Everyone involved was the same age."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 19,
+    "label_name": "contradiction",
+    "premise": "So far, however, the number of mail pieces lost to alternative bill-paying methods is too small to have any material impact on First-Class volume.",
+    "hypothesis": "The amount of lost mail is huge and really impacts mail volume"
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 25,
+    "label_name": "contradiction",
+    "premise": "Sorry but that's how it is.",
+    "hypothesis": "This is how things are and there are no apologies about it."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 27,
+    "label_name": "contradiction",
+    "premise": "The tourist industry continued to expand, and though it became one of the top two income earners in Spain, a realization that unrestricted mass tourism was leading to damaging long-term consequences also began to grow.",
+    "hypothesis": "Tourism is not very big in Spain."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 32,
+    "label_name": "contradiction",
+    "premise": "Conversely, an increase in government saving adds to the supply of resources available for investment and may put downward pressure on interest rates.",
+    "hypothesis": "Interest rates should increase to increase saving."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 39,
+    "label_name": "contradiction",
+    "premise": "In Hong Kong you can have a plate, or even a whole dinner service, hand-painted to your own design.",
+    "hypothesis": "It's impossible to have a plate hand-painted to your own design in Hong Kong."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 41,
+    "label_name": "contradiction",
+    "premise": "What's truly striking, though, is that Jobs has never really let this idea go.",
+    "hypothesis": "Jobs never held onto an idea for long."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 43,
+    "label_name": "contradiction",
+    "premise": "But to you, who know the truth, I propose to read certain passages which will throw some light on the extraordinary mentality of this great man.\" He opened the book, and turned the thin pages.",
+    "hypothesis": "There is no information on the mentality of the man, extraordinary or not, contained within the thin-paged book."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 44,
+    "label_name": "contradiction",
+    "premise": "yeah i mean just when uh the they military paid for her education",
+    "hypothesis": "The military didn't pay for her education."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 45,
+    "label_name": "contradiction",
+    "premise": "but uh these guys were actually on the road uh two thousand miles from from home when they had to file their uh their final exams and send them in",
+    "hypothesis": "These men filed their midterm exams from home."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 51,
+    "label_name": "contradiction",
+    "premise": "He hadn't seen even pictures of such things since the few silent movies run in some of the little art theaters.",
+    "hypothesis": "He had recently seen pictures depicting those things."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 54,
+    "label_name": "contradiction",
+    "premise": "yeah and how about how about like on the weekends do you do sports or do you go out",
+    "hypothesis": "No one plays sports on the weekend."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 58,
+    "label_name": "contradiction",
+    "premise": "She has exchanged a hollow life for a heightened life, and has tried to comprehend all its turns, get its possibilities.",
+    "hypothesis": "She has chose to live a hollow life."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 64,
+    "label_name": "contradiction",
+    "premise": "Credibility is a vital factor, and Jim Lehrer does, indeed, have it.",
+    "hypothesis": "Jim Lehrer has no credibility whatsoever."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 67,
+    "label_name": "contradiction",
+    "premise": "Even if you're the kind of traveler who likes to improvise and be adventurous, don't turn your nose up at the tourist offices.",
+    "hypothesis": "There's nothing worth seeing in the tourist offices."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 70,
+    "label_name": "contradiction",
+    "premise": "Still, it would be interesting to know. 109 Poirot looked at me very earnestly, and again shook his head.",
+    "hypothesis": "Poirot did not look at me."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 72,
+    "label_name": "contradiction",
+    "premise": "There are no shares of a stock that might someday come back, just piles of options as worthless as those shares of Cook's American Business Alliance.",
+    "hypothesis": "Cook's American Business Alliance caused shares of stock to come back."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 73,
+    "label_name": "contradiction",
+    "premise": "One thing was worrying me dreadfully, but my heart gave a great throb of relief when I saw my ulster lying carelessly over the back of a chair.",
+    "hypothesis": "I was dreadfully worried about many things."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 74,
+    "label_name": "contradiction",
+    "premise": "Do you think Mrs. Inglethorp made a will leaving all her money to Miss Howard? I asked in a low voice, with some curiosity.",
+    "hypothesis": "I yelled at the top of my lungs."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 78,
+    "label_name": "contradiction",
+    "premise": "oh i don't know either the other growing up all i knew was",
+    "hypothesis": "I know because I learned it growing up"
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 79,
+    "label_name": "contradiction",
+    "premise": "WHOLE LIFE POLICIES - Policies that provide insurance over the insured's entire life and the proceeds (face amount) are paid only upon death of the insured.",
+    "hypothesis": "Whole life policies are a type of life insurance that only cover the insured person until retirement from the workforce."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 83,
+    "label_name": "contradiction",
+    "premise": "it's actually there well Iraq has had uh designs on that place since nineteen twenty two so you know it wasn't like something that just suddenly popped up",
+    "hypothesis": "The weird thing is that Iraq was never interested in that place until now."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 85,
+    "label_name": "contradiction",
+    "premise": "Prototyping, for example, may act as part of the requirements definition process, helping the agency identify and control areas of high uncertainty and technical risk.",
+    "hypothesis": "Prototyping is not important, testing with the actual finished product is better."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 92,
+    "label_name": "contradiction",
+    "premise": "if the United States had used full conventional power.",
+    "hypothesis": "The United States has no power to use."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 108,
+    "label_name": "contradiction",
+    "premise": "June 21, 1995, provides the specific requirements for assessing and reporting on controls.",
+    "hypothesis": "There are no specific requirements for assessment."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 109,
+    "label_name": "contradiction",
+    "premise": "This is especially true on Menorca, where cold winter winds limit the season's length.",
+    "hypothesis": "This is especially untrue on Menorca, where warm summer weather extends the season's length."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 110,
+    "label_name": "contradiction",
+    "premise": "Over most of the 1980s and 1990s, the U.S. was able to invest more than it saved by attracting financing from abroad.",
+    "hypothesis": "The US could save more than it invested in the 1980's and 90's."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 123,
+    "label_name": "contradiction",
+    "premise": "In 1998, Cesar Chavez fasted for 36 days in California to underscore the dangers of pesticides to farm workers and their children.",
+    "hypothesis": "Cesar Chavez was not concerned about the dangers of pesticide use."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 126,
+    "label_name": "contradiction",
+    "premise": "However, in the off-field (sentimental) tournament, the Falcons and Jets have more appealing story lines.",
+    "hypothesis": "The Jets and Falcons have boring stories."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 132,
+    "label_name": "contradiction",
+    "premise": "They made little effort, despite the Jesuit presence in Asia, to convert local inhabitants to Christianity or to expand their territory into the interior.",
+    "hypothesis": "The Jesuit presence in Asia helped to convert local residents to Christianity, allowing them to expand their territory."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 133,
+    "label_name": "contradiction",
+    "premise": "Dirt mounds surrounded the pit so that the spectators stood five or six people deep around the edge of the pit.",
+    "hypothesis": "The ground is totally flat."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 137,
+    "label_name": "contradiction",
+    "premise": "There's only one thing for me to do.\"",
+    "hypothesis": "There's a few things left for me to do."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 144,
+    "label_name": "contradiction",
+    "premise": "Sometimes it flattens entire neighbourhoods to make life easier for them.",
+    "hypothesis": "All neighborhoods are perfectly safe in their pursuit of an easier life."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 149,
+    "label_name": "contradiction",
+    "premise": "You will find two principal fino and olorose",
+    "hypothesis": "You won't find any fino or olorose."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 150,
+    "label_name": "contradiction",
+    "premise": "The sooner we strike the better.\" He turned to Tuppence.",
+    "hypothesis": "He convinced Tuppence to hold off on their action plan."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 158,
+    "label_name": "contradiction",
+    "premise": "The WP runs a piece inside reporting that during a church service last Sunday, Cardinal John O'Connor of New York criticized President Clinton from the pulpit for taking Catholic communion while in South Africa.",
+    "hypothesis": "The WP runs a piece outside reporting"
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 160,
+    "label_name": "contradiction",
+    "premise": "For big Raj-buffs, the supreme example of Indo-Gothic style is the Victoria Terminus, affectionately abbreviated to VT nowadays, once the railway station that launched adventures inland, now handling mostly suburban traffic.",
+    "hypothesis": "The Victoria Terminus is still the main departure point for travelers heading deeper into the country."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 162,
+    "label_name": "contradiction",
+    "premise": "The only drawback is, of course, the large crowds in summer.",
+    "hypothesis": "It is pretty much deserted in July."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 166,
+    "label_name": "contradiction",
+    "premise": "were sort of a double sign with a a big miles per hour and a little kilometers per hour type uh marking on the side",
+    "hypothesis": "A sign that only displays mph."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 168,
+    "label_name": "contradiction",
+    "premise": "Another alternative is that our heroes were pursuing the noble goal of academics everywhere--tenure.",
+    "hypothesis": "Our heroes aren't going for any academic goals."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 172,
+    "label_name": "contradiction",
+    "premise": "By then, the program had added Carroll and Grayson counties and the city of Galax and had five attorneys.",
+    "hypothesis": "The program had only one single attorney."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 176,
+    "label_name": "contradiction",
+    "premise": "Even the lower limit of that differential compounds to a hefty sum over time.",
+    "hypothesis": "The differential will not grow."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 180,
+    "label_name": "contradiction",
+    "premise": "The flame or whatever it was had enough heat, but it was hard to control.",
+    "hypothesis": "The flame was easy to control, but lacked heat."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 186,
+    "label_name": "contradiction",
+    "premise": "Tell me, how did those scribbled words on the envelope help you to discover that a will was made yesterday afternoon?\" Poirot smiled.",
+    "hypothesis": "How could you not figure out that there was a will written yesterday?"
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 191,
+    "label_name": "contradiction",
+    "premise": "of course you could annex Cuba but they wouldn't like that a bit",
+    "hypothesis": "Annexing Cuba is a great idea."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 194,
+    "label_name": "contradiction",
+    "premise": "They are levied through the power of the Government to compel payment, and the person or entity that pays these fees does not receive anything of value from the Government in exchange.",
+    "hypothesis": "They are not levied through the power of the Government to compel payment."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 197,
+    "label_name": "contradiction",
+    "premise": "Sir James's presence in Manchester was not accidental.",
+    "hypothesis": "Manchester was not the place that Sir James had intended to go."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 207,
+    "label_name": "contradiction",
+    "premise": "well i think i got to agree with you there",
+    "hypothesis": "I could not agree with you."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 211,
+    "label_name": "contradiction",
+    "premise": "The Balanced Scorecard Institute is a web clearinghouse for managers to exchange information, ideas, and lessons learned in building strategic management systems using the balanced scorecard approach.",
+    "hypothesis": "The Balanced Scorecard has recently closed due to a lack of interest."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 215,
+    "label_name": "contradiction",
+    "premise": "Even us if you needed,\" said Jon.",
+    "hypothesis": "He told them not to ask him to lift a finger."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 216,
+    "label_name": "contradiction",
+    "premise": "News berates computer users for picking obvious, easily cracked passwords and chastises system administrators for ignoring basic security precautions.",
+    "hypothesis": "News outlets do not blame users or system administrators for security breaches."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 218,
+    "label_name": "contradiction",
+    "premise": "No one was there, no bones at all.",
+    "hypothesis": "There were many bones in a pile."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 221,
+    "label_name": "contradiction",
+    "premise": "well that's uh i agree with you there i mean he didn't have the surrounding cast that Montana had there's no doubt about that",
+    "hypothesis": "I don't agree when you say that he didn't have as much support as Montana."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 223,
+    "label_name": "contradiction",
+    "premise": "There are many such at the present time.",
+    "hypothesis": "There are none at all."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 226,
+    "label_name": "contradiction",
+    "premise": "It was planned in the 1820s as a symbol of Scottish national pride and designed as a mini-Parthenon, in deference to the neoclassical style popular at the time.",
+    "hypothesis": "It was designed to look just like the White House."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 235,
+    "label_name": "contradiction",
+    "premise": "A re-created street of colonial Macau is lined with traditional Chinese shops.",
+    "hypothesis": "This street, formerly a colonial site, is now home to modern high-rise development."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 237,
+    "label_name": "contradiction",
+    "premise": "it would probably be a lot more work and probably not turn out as good",
+    "hypothesis": "Oh that way sounds great, it could turn out even better"
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 240,
+    "label_name": "contradiction",
+    "premise": "During the half-century of its existence, Israel has absorbed approximately 2.5 million Jewish immigrants, displaced persons, refugees, and survivors of the Nazi Holocaust.",
+    "hypothesis": "Israel shunned the Jewish people from entering to escape the Nazi Holocaust."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 244,
+    "label_name": "contradiction",
+    "premise": "Also, under credit reform, the credit subsidy cost is recorded as an outlay when a direct or guaranteed loan is disbursed.",
+    "hypothesis": "The credit subsidy cost is never recorded as an outlay under any circumstances."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 246,
+    "label_name": "contradiction",
+    "premise": "OMB has approved the information collection contained on the Form ADV and has",
+    "hypothesis": "OMB staunchly opposed the information collection contained on the Form ADV."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 248,
+    "label_name": "contradiction",
+    "premise": "Finally, the FDA will conduct workshops, issue guidance manuals and videotapes, and hold teleconferences to aid small entities in complying with the rule.",
+    "hypothesis": "The FDA will only issue videotapes."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 253,
+    "label_name": "contradiction",
+    "premise": "uh-huh well maybe well i've enjoyed talking to you okay bye-bye",
+    "hypothesis": "I hated talking to you."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 260,
+    "label_name": "contradiction",
+    "premise": "Tom is the winner of a year's supply of Turtle Wax, and he will receive his prize just as soon as the Shopping Avenger figures out how much Turtle Wax actually constitutes a year's supply.",
+    "hypothesis": "There are no winners of the one year supply of Turtle wax."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 268,
+    "label_name": "contradiction",
+    "premise": "Divers can explore the deeps but you can also snorkel here, or take a glass-bottom boat or submarine tour to get a glimpse of this watery world.",
+    "hypothesis": "Divers do not like to explore the deeps here."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 271,
+    "label_name": "contradiction",
+    "premise": "Why blame her because she had been true to her creed?",
+    "hypothesis": "She was not faithful to her own belief system."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 272,
+    "label_name": "contradiction",
+    "premise": "Oh, my friend, have I not said to you all along that I have no proofs.",
+    "hypothesis": "I've always had the proof that he did it."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 273,
+    "label_name": "contradiction",
+    "premise": "Companies that were foreign had to accept Indian financial participation and management.",
+    "hypothesis": "Foreign companies had to take Italian money."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 277,
+    "label_name": "contradiction",
+    "premise": "And really it's a great relief to think he's going, Hastings, continued my honest friend.",
+    "hypothesis": "\"Are you sure we can't do anything to keep him here?,\" admitted my long-time nemesis."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 282,
+    "label_name": "contradiction",
+    "premise": "Like the Japanese, Chinese, and Portuguese before them, many of the new peoples would stay on in Hawaii, adding to the ethnic and racial mix that has become a hallmark of the islands.",
+    "hypothesis": "Hawaii was homogenous."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 283,
+    "label_name": "contradiction",
+    "premise": "It was other-worldly.",
+    "hypothesis": "It was grounded in reality."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 284,
+    "label_name": "contradiction",
+    "premise": "Voluntariness of risks is evaluated.",
+    "hypothesis": "No evaluation is being done of risks."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 286,
+    "label_name": "contradiction",
+    "premise": "Thus, the net scale benefit is initially positive, whether or not we adjust for the wage premium.",
+    "hypothesis": "Initial net scale benefits are negative when adjusted for the wage premium."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 287,
+    "label_name": "contradiction",
+    "premise": "The stuff was strong, but somewhat brittle.",
+    "hypothesis": "It was incredibly strong and not brittle at all."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 296,
+    "label_name": "contradiction",
+    "premise": "yeah because being a student i'm doing it for the money",
+    "hypothesis": "I'm no longer a student, so I don't need the money anymore."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 297,
+    "label_name": "contradiction",
+    "premise": "well i think of uh you mean as far as retirement",
+    "hypothesis": "You never discuss retirement."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 298,
+    "label_name": "contradiction",
+    "premise": "If you have any questions about this report, please contact Henry R. Wray, Senior Associate General Counsel, at (202) 512-8581.",
+    "hypothesis": "Henry R. Wray can be reached at (555) 512-8581."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 299,
+    "label_name": "contradiction",
+    "premise": "Your speeches are inflammatory.",
+    "hypothesis": "Your speeches are so calming."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 300,
+    "label_name": "contradiction",
+    "premise": "Given the limits on the WTO's jurisdiction, it was probably unreasonable of Kodak to expect a real victory.",
+    "hypothesis": "Kodak was totally justified in expecting a victory."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 303,
+    "label_name": "contradiction",
+    "premise": "Back to the subject of celebrity interviews, British magazines have published a huge number with actress Kate Winslet, the star of Titanic , to promote a new British film she has made.",
+    "hypothesis": "British magazines boycotted Kate Winslet."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 304,
+    "label_name": "contradiction",
+    "premise": "aChange in personal saving depends on how much of the $4,000 IRA contribution represents new saving.",
+    "hypothesis": "The IRA contributes nothing to saving"
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 308,
+    "label_name": "contradiction",
+    "premise": "As of last week he charges $50 an hour minimum instead of $25 for the services of his yearling Northern Utah Legal Aid Foundation.",
+    "hypothesis": "His charges went down."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 309,
+    "label_name": "contradiction",
+    "premise": "7) Nonautomated First-Class and Standard-A mailers have the option of requesting that their mail be processed manually, even though the costs for such processing are substantially higher than mechanized processing.",
+    "hypothesis": "Nonautomated First-Class and Standard-A mailers cannot ask for their mail to be processed by hand because it costs the postal service more."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 311,
+    "label_name": "contradiction",
+    "premise": "um-hum yeah right uh is yours a is it a a slab foundation or pier and beam",
+    "hypothesis": "Your foundation is being beamed away."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 312,
+    "label_name": "contradiction",
+    "premise": "Although all four categories of emissions are down substantially, they only achieve 50-75% of the proposed cap by 2007 (shown as the dotted horizontal line in each of the above figures).",
+    "hypothesis": "All of the emission categories experienced a downturn except for one."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 313,
+    "label_name": "contradiction",
+    "premise": "i don't know i i do i can think of all the uh the biblical things about it too where what did they say to uh i can't think of the scripture Render unto Caesar's what is Caesar's so",
+    "hypothesis": "I do not know about the bible or its scriptures."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 315,
+    "label_name": "contradiction",
+    "premise": "Others love to see it in the middle of the heaviest monsoon, its marble translucent, its image blurred in the rain-stippled water channels of its gardens.",
+    "hypothesis": "None of the visitors like to see it during the monsoon."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 316,
+    "label_name": "contradiction",
+    "premise": "Previously, at the request of the Republican Ranking Minority Member of the House Committee on Government Operations, GAO reviewed activities of President Clintonas Task Force on Health Care Reform and was provided with an extensive listing of working group participants drawn from the government and from outside organizations.",
+    "hypothesis": "GAO solely investigated the activities of President Clinton's Task Force on their own accord."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 320,
+    "label_name": "contradiction",
+    "premise": "Crosethe Rue de Rivoli to the Palais-Royal, built for Car?­di?­nal Richelieu as his Paris residence in 1639, and originally named Palais-Cardinal.",
+    "hypothesis": "Crosethe Rue De Rivoli to the Palais-Royal was built for King Louis XVI."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 321,
+    "label_name": "contradiction",
+    "premise": "There was food for all, and houses had been conjured hastily to shelter the people.",
+    "hypothesis": "There was not enough food for all sadly."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 322,
+    "label_name": "contradiction",
+    "premise": "After the second course I began to feel slightly at ease, although I couldn't help being disturbed by the way they just stared at me.",
+    "hypothesis": "I felt at ease around them."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 325,
+    "label_name": "contradiction",
+    "premise": "They made little effort, despite the Jesuit presence in Asia, to convert local inhabitants to Christianity or to expand their territory into the interior.",
+    "hypothesis": "The Jesuit thought that by converting the Asian people to Christianity, it would help them to expand their territory."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 326,
+    "label_name": "contradiction",
+    "premise": "And, could it not result in a decline in Postal Service volumes across--the--board?",
+    "hypothesis": "Nothing will affect Postal Service volumes across--the--board."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 331,
+    "label_name": "contradiction",
+    "premise": "If the company makes money on the policy, other insurers are expected to follow.",
+    "hypothesis": "If the company loses money on the policy then other insurers will copy them."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 333,
+    "label_name": "contradiction",
+    "premise": "The tomb of Job Charnock, the Company official who founded the city of Caletta, is in the church cemetery.",
+    "hypothesis": "The Tomb of Job Charnock is not in the church cemetery."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 334,
+    "label_name": "contradiction",
+    "premise": "Because GAO's primary function is to support the Congress in carrying out its decision-making and oversight responsibilities, the number of times our experts testify before congressional panels each year is an indicator of our responsiveness and reflects the impact, importance, and value of our work.",
+    "hypothesis": "They refused to provide any support to the Congress."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 337,
+    "label_name": "contradiction",
+    "premise": "The two programs are currently housed in buildings about a block apart.",
+    "hypothesis": "The two buildings are on opposite sides of the city."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 338,
+    "label_name": "contradiction",
+    "premise": "The results of the sheepshead minnow, Cyprinodon variegatus, inland silverside, Menidia beryllina, or mysid, Mysidopsis bahia, tests are acceptable if survival in the controls is 80 percent or greater.",
+    "hypothesis": "Tests are only acceptable when survival rates during controls come to at least 70 percent."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 339,
+    "label_name": "contradiction",
+    "premise": "Now suppose there is a private delivery firm in Cleveland that is competing with the postal service.",
+    "hypothesis": "Imagine a state-run delivery firm trying to phase out the postal service."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 342,
+    "label_name": "contradiction",
+    "premise": "yeah well that's not really immigration",
+    "hypothesis": "That is the focus of immigration."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 344,
+    "label_name": "contradiction",
+    "premise": "My unborn children will never appear on the Today show.",
+    "hypothesis": "My sons and daughter will be anchors on the Today show."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 345,
+    "label_name": "contradiction",
+    "premise": "An organization's activities, core processes, and resources must be aligned to support its mission and help it achieve its goals.",
+    "hypothesis": "A company's mission can be realized even without the alignment of resources."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 346,
+    "label_name": "contradiction",
+    "premise": "need the car the next day type deal so",
+    "hypothesis": "You need the car several weeks later."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 355,
+    "label_name": "contradiction",
+    "premise": "The long-sought, the mysterious, the elusive Jane Finn!",
+    "hypothesis": "Jane Finn is easily found but not often looked for."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 357,
+    "label_name": "contradiction",
+    "premise": "It's easy to overdose on the many temples, palaces, and museums in India.",
+    "hypothesis": "You'll find a scarcity of palaces and temples across India."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 358,
+    "label_name": "contradiction",
+    "premise": "uh i really i miss college i had a good time",
+    "hypothesis": "College was horrible and I hated it."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 361,
+    "label_name": "contradiction",
+    "premise": "'No one in Large would ever try to harm us.",
+    "hypothesis": "They're out to get us there in Large, you know."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 362,
+    "label_name": "contradiction",
+    "premise": "True to his word to his faithful mare, Ca'daan left Whitebelly in Fena Dim and borrowed Gray Cloud from his uncle.",
+    "hypothesis": "Ca'daan kept his word to Gray Cloud and borrowed Whitebelly from his uncle."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 364,
+    "label_name": "contradiction",
+    "premise": "The central features of the Results Act-strategic planning, performance measurement, and public reporting and accountability-can serve as powerful tools to help change the basic culture of government.",
+    "hypothesis": "The Results Act has strategic planning as a deleted feature."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 368,
+    "label_name": "contradiction",
+    "premise": "Today it is possible to buy cheap papyrus printed with gaudy Egyptian scenes in almost every souvenir shop in the country, but some of the most authentic are sold at The Pharaonic Village in Cairo where the papyrus is grown, processed, and hand-painted on site.",
+    "hypothesis": "The Pharaonic Village in Cairo does not sell papyrus."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 377,
+    "label_name": "contradiction",
+    "premise": "we wouldn't be expected to cast a ballet on the subject",
+    "hypothesis": "We have been asked to vote on the subject."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 378,
+    "label_name": "contradiction",
+    "premise": "As recent events illustrate, trust takes years to gain but can be lost in an instant.",
+    "hypothesis": "Trust, once built, is hard to lose."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 379,
+    "label_name": "contradiction",
+    "premise": "But when he was persuaded by divers means to help us, he gave up after one week, declaring it beyond his powers.",
+    "hypothesis": "He solved the issue within seven days, because he was so smart."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 380,
+    "label_name": "contradiction",
+    "premise": "She gave the girl clothes and gifts and took her to her Connecticut estate for weekend pony rides, according to the Star . How was I supposed to compete with that?",
+    "hypothesis": "She gave the boy clothes, gifts and pony rides. That's hard to compete with."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 381,
+    "label_name": "contradiction",
+    "premise": "There may be a small savings at the factory showrooms in Manacor, where you'll have the biggest choice.",
+    "hypothesis": "The factory showrooms are only for vendors."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 383,
+    "label_name": "contradiction",
+    "premise": "we only have to get up for you know for the daytime feedings",
+    "hypothesis": "We can sleep all day, since we don't have any daytime feedings."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 384,
+    "label_name": "contradiction",
+    "premise": "One opportunist who stayed was Octavius Decatur Gass.",
+    "hypothesis": "Octavius Decatur Gass refers to four people."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 386,
+    "label_name": "contradiction",
+    "premise": "These gardens used to belong to the governor's mountain lodge, but the building was demolished by the Japanese during the occupation of Hong Kong.",
+    "hypothesis": "These gardens belong to the governor's mountain lodge."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 387,
+    "label_name": "contradiction",
+    "premise": "He seemed a trifle embarrassed.",
+    "hypothesis": "He wasn't embarrassed at all."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 390,
+    "label_name": "contradiction",
+    "premise": "and they're more independent and there's things to do then it's good for them to go to different i mean it he goes to a a mother's day out program now once a week both of my kids do",
+    "hypothesis": "Independence does not grant anymore options for them."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 392,
+    "label_name": "contradiction",
+    "premise": "no North Carolina State",
+    "hypothesis": "North Carolina is a county"
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 398,
+    "label_name": "contradiction",
+    "premise": "But Fish is not an upbeat pragmatist.",
+    "hypothesis": "Fish is an upbeat pragmatist."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 399,
+    "label_name": "contradiction",
+    "premise": "so i really i really don't have heart burn at all with doing it myself over four nights tie i tied the car up if four days but we're fortunate we didn't need it",
+    "hypothesis": "I tied the car up for four nights but I had heartburn the entire time."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 400,
+    "label_name": "contradiction",
+    "premise": "In general, six elements appear purpose, type of data collected, method of data collection, design, method of data analysis, and reporting.",
+    "hypothesis": "Purpose is not one of the six elements listed here."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 411,
+    "label_name": "contradiction",
+    "premise": "oh yeah IBM uh i mean uh a lot of people use human factors folks but IBM is what i'm looking at right now",
+    "hypothesis": "No one thinks about human factors and I'm not interested in IBM."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 412,
+    "label_name": "contradiction",
+    "premise": "Cybernetics had always been Derry's passion.",
+    "hypothesis": "Derry knew nothing of cybernetics."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 413,
+    "label_name": "contradiction",
+    "premise": "To the northwest of the chateau, the Grand Trianon palace, surrounded by pleasantly unpompous gardens, was the home of Louis XIV's mistress, Madame de Maintenon, where the aging king increasingly took refuge.",
+    "hypothesis": "Grand Trianon palace was the residence of Louis XIV."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 414,
+    "label_name": "contradiction",
+    "premise": "You're crazed, Beresford.",
+    "hypothesis": "You are a sane genius, Beresford."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 415,
+    "label_name": "contradiction",
+    "premise": "so are can i just ask you are you Canadian",
+    "hypothesis": "Are you from the U.S.?"
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 416,
+    "label_name": "contradiction",
+    "premise": "In the meantime, the philosophy is to seize present-day opportunities in the thriving economy.",
+    "hypothesis": "The philosophy was to seize opportunities when the economy is doing poorly."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 423,
+    "label_name": "contradiction",
+    "premise": "hi Cynthia what did you wear to work today",
+    "hypothesis": "You did not go to work today."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 424,
+    "label_name": "contradiction",
+    "premise": "The purpose of the Diwan-i-Khas is hotly disputed; it is not necessarily the hall of private audience that its name implies.",
+    "hypothesis": "The name suggest that it is open to the public."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 427,
+    "label_name": "contradiction",
+    "premise": "Palestrina , by Hans Pfitzner, performed by the Royal Opera (Metropolitan Opera House, New York).",
+    "hypothesis": "Hans Pfitzner did not write Palestrina, which will be performed in New York."
+  },
+  {
+    "source_dataset": "nyu-mll/multi_nli",
+    "source_config": "default",
+    "source_split": "validation_matched",
+    "source_row_idx": 430,
+    "label_name": "contradiction",
+    "premise": "Behind the cathedral, croseover the Rue de la R??publique to the 15th-century Eglise Saint-Maclou, the richest example of Flam?­boy?­ant Gothic in the country.",
+    "hypothesis": "The Eglise Saint-Michel was built in the 8th century."
+  }
+]
