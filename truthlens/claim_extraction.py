@@ -53,12 +53,27 @@ def _fold(s: str) -> str:
     return s.translate(_UNICODE_FOLD)
 
 
+_WS_RE = re.compile(r"\s+")
+
+
+def _normalize_for_match(s: str) -> str:
+    """Fold unicode quote/dash variants AND collapse all whitespace runs to a
+    single space. Used only for substring verification — the original quote
+    text is preserved verbatim in the stored AuditClaim."""
+    return _WS_RE.sub(" ", _fold(s)).strip()
+
+
 def _quote_appears_in(quote: str, content: str) -> bool:
-    """LLMs frequently normalize unicode quotes/dashes when generating, so the
-    extracted quote stops matching the source verbatim. Accept fold-equivalent
-    matches (', ', ', ", ", –, —, NBSP, zero-widths) so those claims still
-    pass verification instead of getting silently dropped."""
-    return quote in content or _fold(quote) in _fold(content)
+    """LLMs both normalize unicode (curly -> straight quotes, em dash -> hyphen)
+    AND collapse newlines into single spaces when generating JSON quotes. Both
+    forms break a strict 'quote in turn.content' check. Accept exact match,
+    fold-equivalent match, OR whitespace-and-fold-equivalent match so legitimate
+    extracted claims aren't silently dropped at verification time."""
+    if quote in content:
+        return True
+    if _fold(quote) in _fold(content):
+        return True
+    return _normalize_for_match(quote) in _normalize_for_match(content)
 
 
 def clean_string(value: Any, limit: int = 1200) -> str:
