@@ -40,6 +40,27 @@ IMPORTANT_CUES = (
 )
 
 
+_UNICODE_FOLD = str.maketrans({
+    "‘": "'", "’": "'", "‚": "'", "‛": "'",
+    "“": '"', "”": '"', "„": '"', "‟": '"',
+    "–": "-", "—": "-", "―": "-",
+    " ": " ",   # non-breaking space
+    "​": "", "‌": "", "‍": "", "﻿": "",
+})
+
+
+def _fold(s: str) -> str:
+    return s.translate(_UNICODE_FOLD)
+
+
+def _quote_appears_in(quote: str, content: str) -> bool:
+    """LLMs frequently normalize unicode quotes/dashes when generating, so the
+    extracted quote stops matching the source verbatim. Accept fold-equivalent
+    matches (', ', ', ", ", –, —, NBSP, zero-widths) so those claims still
+    pass verification instead of getting silently dropped."""
+    return quote in content or _fold(quote) in _fold(content)
+
+
 def clean_string(value: Any, limit: int = 1200) -> str:
     return re.sub(r"\s+", " ", str(value or "")).strip()[:limit]
 
@@ -156,7 +177,7 @@ def claim_from_fields(
     if not quote:
         return None
     turn = next((item for item in chunk.turns if item.turn == turn_number), None)
-    if turn is None or quote not in turn.content:
+    if turn is None or not _quote_appears_in(quote, turn.content):
         return None
     speaker_value = "user" if speaker == "user" else "assistant"
     try:
