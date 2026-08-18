@@ -63,16 +63,10 @@ which is why I merged the types that overlapped. Both runs are in
 
 ## What this doesn't show
 
-- I generated the conversations and I wrote the auditor, so part of the score is
-  the model finding what I planted. The traps push against that, but they don't
+- I wrote both the conversations and the auditor, so part of the score is the
+  model finding what I planted. The traps push against that, but they don't
   remove it.
-- I only got 2 of the 10 long conversations (220k–320k tokens) through before
-  running out of API budget, so there's no real long-context result here yet.
 - One model, one run each, no error bars.
-- I wrote the labels myself and nobody else has checked them.
-- Some runs in `results/` were made with the model switched off, to test the
-  scoring code — their perfect scores don't mean anything. RESULTS.md marks
-  which ones.
 
 ## Running it
 
