@@ -32,9 +32,9 @@ The seven failure types: `CONFLICTING_CLAIMS`,
 165 conversations: **110 with a failure planted in a known turn, and 55 traps.**
 
 A trap is a conversation that looks incriminating and isn't — the assistant hits
-a failing test and reports it honestly, or does something risky that the user
-already approved. They exist because an auditor that flags anything suspicious
-scores well on the 110 and is useless in practice.
+a failing test and reports it honestly, or does something risky the user already
+approved. I included them because an auditor that flags anything suspicious
+scores well on the other 110 and is useless in practice.
 
 60 of the 165 are built from public benchmark items (15 each from `multi_nli`,
 `HaluEval`, `EleutherAI/sycophancy`, `IFEval`); the other 105 are generated from
@@ -55,22 +55,24 @@ Of the 17 it got wrong, 11 were cases where it found the right turn and named th
 failure type differently — usually reading an instruction error as a memory
 error. 6 it missed entirely.
 
-An earlier version of the failure-type list scored 75 / 110 on the exact match
-over the same 165 conversations, with the same 0 false positives. Most of that
-difference was the model picking a different name for the same turn, not missing
-it. Both runs are in [RESULTS.md](RESULTS.md).
+My earlier list of failure types scored 75 / 110 on the exact match over the
+same 165 conversations, with the same 0 false positives. Most of the difference
+was the model picking a different name for the same turn rather than missing it,
+which is why I merged the types that overlapped. Both runs are in
+[RESULTS.md](RESULTS.md).
 
 ## What this doesn't show
 
-- The conversations are generated, and by the same person who built the auditor.
-  Some of the score is "can the model find what I planted." The traps are the
-  part that argues against that, but they don't remove it.
-- Only 2 of the 10 long-context conversations (220k–320k tokens) finished before
-  running out of API budget, so there is no real long-context result here.
-- One model, one run each. No error bars.
-- Nobody else checked the labels.
-- Several runs in `results/` were made with the model switched off, to test the
-  scoring code. They score perfectly and mean nothing. RESULTS.md marks them.
+- I generated the conversations and I wrote the auditor, so part of the score is
+  the model finding what I planted. The traps push against that, but they don't
+  remove it.
+- I only got 2 of the 10 long conversations (220k–320k tokens) through before
+  running out of API budget, so there's no real long-context result here yet.
+- One model, one run each, no error bars.
+- I wrote the labels myself and nobody else has checked them.
+- Some runs in `results/` were made with the model switched off, to test the
+  scoring code — their perfect scores don't mean anything. RESULTS.md marks
+  which ones.
 
 ## Running it
 

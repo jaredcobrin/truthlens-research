@@ -11,8 +11,8 @@
 
 **The `model used?` column matters.** Runs marked `no` have `dry_run: true` in
 their `run_manifest.json` — the model was switched off and the pipeline ran
-against stubs. They exist to test the scoring code and say nothing about how
-well anything was caught.
+against stubs. I used them to test the scoring code; they say nothing about how well
+anything was caught.
 
 The two 165-conversation runs use the same conversations (byte-identical, same
 generation seed) and the same model. They differ only in the list of failure
