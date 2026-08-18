@@ -1,0 +1,341 @@
+{
+  "summary": {
+    "examples_in_split": 1,
+    "predicted_examples": 1,
+    "min_confidence_score": 8,
+    "exact_true_positives": 0,
+    "false_negatives": 1,
+    "false_positives": 0,
+    "turn_only_wrong_primary_failure": 0,
+    "type_only_wrong_turn": 0,
+    "trap_true_negatives": 0,
+    "trap_false_positives": 0,
+    "strict_precision_percent": 0.0,
+    "strict_recall_percent": 0.0,
+    "strict_f1_percent": 0.0
+  },
+  "by_primary_failure": {
+    "CONFLICTING_CLAIMS": {
+      "expected_positive": 1,
+      "trap_negative": 0,
+      "true_positive": 0,
+      "false_negative": 1,
+      "false_positive": 0,
+      "true_negative": 0,
+      "trap_false_positive": 0,
+      "precision_percent": 0.0,
+      "recall_percent": 0.0,
+      "f1_percent": 0.0,
+      "turn_only_wrong_primary_failure": 0,
+      "type_only_wrong_turn": 0,
+      "wrong_primary_failure_predictions": {},
+      "false_positive_examples": [],
+      "trap_false_positive_examples": [],
+      "wrong_turn_examples": [],
+      "miss_examples": [
+        {
+          "example_id": "tla_v2_unit_ct_example_pos_000",
+          "issue_id": "tla_v2_unit_ct_pos_000",
+          "expected_primary_failure": "CONFLICTING_CLAIMS",
+          "target_turn": 2,
+          "evidence_turns": [
+            1
+          ]
+        }
+      ]
+    },
+    "DECISION_CRITICAL_OMISSION": {
+      "expected_positive": 0,
+      "trap_negative": 0,
+      "true_positive": 0,
+      "false_negative": 0,
+      "false_positive": 0,
+      "true_negative": 0,
+      "trap_false_positive": 0,
+      "precision_percent": 0.0,
+      "recall_percent": 0.0,
+      "f1_percent": 0.0,
+      "turn_only_wrong_primary_failure": 0,
+      "type_only_wrong_turn": 0,
+      "wrong_primary_failure_predictions": {},
+      "false_positive_examples": [],
+      "trap_false_positive_examples": [],
+      "wrong_turn_examples": [],
+      "miss_examples": []
+    },
+    "INSTRUCTION_OR_CONSTRAINT_ERROR": {
+      "expected_positive": 0,
+      "trap_negative": 0,
+      "true_positive": 0,
+      "false_negative": 0,
+      "false_positive": 0,
+      "true_negative": 0,
+      "trap_false_positive": 0,
+      "precision_percent": 0.0,
+      "recall_percent": 0.0,
+      "f1_percent": 0.0,
+      "turn_only_wrong_primary_failure": 0,
+      "type_only_wrong_turn": 0,
+      "wrong_primary_failure_predictions": {},
+      "false_positive_examples": [],
+      "trap_false_positive_examples": [],
+      "wrong_turn_examples": [],
+      "miss_examples": []
+    },
+    "REASONING_OR_BAD_PREMISE_ERROR": {
+      "expected_positive": 0,
+      "trap_negative": 0,
+      "true_positive": 0,
+      "false_negative": 0,
+      "false_positive": 0,
+      "true_negative": 0,
+      "trap_false_positive": 0,
+      "precision_percent": 0.0,
+      "recall_percent": 0.0,
+      "f1_percent": 0.0,
+      "turn_only_wrong_primary_failure": 0,
+      "type_only_wrong_turn": 0,
+      "wrong_primary_failure_predictions": {},
+      "false_positive_examples": [],
+      "trap_false_positive_examples": [],
+      "wrong_turn_examples": [],
+      "miss_examples": []
+    },
+    "SOURCE_OR_EVIDENCE_ERROR": {
+      "expected_positive": 0,
+      "trap_negative": 0,
+      "true_positive": 0,
+      "false_negative": 0,
+      "false_positive": 0,
+      "true_negative": 0,
+      "trap_false_positive": 0,
+      "precision_percent": 0.0,
+      "recall_percent": 0.0,
+      "f1_percent": 0.0,
+      "turn_only_wrong_primary_failure": 0,
+      "type_only_wrong_turn": 0,
+      "wrong_primary_failure_predictions": {},
+      "false_positive_examples": [],
+      "trap_false_positive_examples": [],
+      "wrong_turn_examples": [],
+      "miss_examples": []
+    },
+    "UNSUPPORTED_OR_OVERCONFIDENT_CLAIM": {
+      "expected_positive": 0,
+      "trap_negative": 0,
+      "true_positive": 0,
+      "false_negative": 0,
+      "false_positive": 0,
+      "true_negative": 0,
+      "trap_false_positive": 0,
+      "precision_percent": 0.0,
+      "recall_percent": 0.0,
+      "f1_percent": 0.0,
+      "turn_only_wrong_primary_failure": 0,
+      "type_only_wrong_turn": 0,
+      "wrong_primary_failure_predictions": {},
+      "false_positive_examples": [],
+      "trap_false_positive_examples": [],
+      "wrong_turn_examples": [],
+      "miss_examples": []
+    },
+    "USER_CONTEXT_OR_MEMORY_ERROR": {
+      "expected_positive": 0,
+      "trap_negative": 0,
+      "true_positive": 0,
+      "false_negative": 0,
+      "false_positive": 0,
+      "true_negative": 0,
+      "trap_false_positive": 0,
+      "precision_percent": 0.0,
+      "recall_percent": 0.0,
+      "f1_percent": 0.0,
+      "turn_only_wrong_primary_failure": 0,
+      "type_only_wrong_turn": 0,
+      "wrong_primary_failure_predictions": {},
+      "false_positive_examples": [],
+      "trap_false_positive_examples": [],
+      "wrong_turn_examples": [],
+      "miss_examples": []
+    }
+  },
+  "primary_failure_confusion_turn_only": {
+    "CONFLICTING_CLAIMS": {
+      "CONFLICTING_CLAIMS": 0,
+      "DECISION_CRITICAL_OMISSION": 0,
+      "INSTRUCTION_OR_CONSTRAINT_ERROR": 0,
+      "REASONING_OR_BAD_PREMISE_ERROR": 0,
+      "SOURCE_OR_EVIDENCE_ERROR": 0,
+      "UNSUPPORTED_OR_OVERCONFIDENT_CLAIM": 0,
+      "USER_CONTEXT_OR_MEMORY_ERROR": 0
+    },
+    "DECISION_CRITICAL_OMISSION": {
+      "CONFLICTING_CLAIMS": 0,
+      "DECISION_CRITICAL_OMISSION": 0,
+      "INSTRUCTION_OR_CONSTRAINT_ERROR": 0,
+      "REASONING_OR_BAD_PREMISE_ERROR": 0,
+      "SOURCE_OR_EVIDENCE_ERROR": 0,
+      "UNSUPPORTED_OR_OVERCONFIDENT_CLAIM": 0,
+      "USER_CONTEXT_OR_MEMORY_ERROR": 0
+    },
+    "INSTRUCTION_OR_CONSTRAINT_ERROR": {
+      "CONFLICTING_CLAIMS": 0,
+      "DECISION_CRITICAL_OMISSION": 0,
+      "INSTRUCTION_OR_CONSTRAINT_ERROR": 0,
+      "REASONING_OR_BAD_PREMISE_ERROR": 0,
+      "SOURCE_OR_EVIDENCE_ERROR": 0,
+      "UNSUPPORTED_OR_OVERCONFIDENT_CLAIM": 0,
+      "USER_CONTEXT_OR_MEMORY_ERROR": 0
+    },
+    "REASONING_OR_BAD_PREMISE_ERROR": {
+      "CONFLICTING_CLAIMS": 0,
+      "DECISION_CRITICAL_OMISSION": 0,
+      "INSTRUCTION_OR_CONSTRAINT_ERROR": 0,
+      "REASONING_OR_BAD_PREMISE_ERROR": 0,
+      "SOURCE_OR_EVIDENCE_ERROR": 0,
+      "UNSUPPORTED_OR_OVERCONFIDENT_CLAIM": 0,
+      "USER_CONTEXT_OR_MEMORY_ERROR": 0
+    },
+    "SOURCE_OR_EVIDENCE_ERROR": {
+      "CONFLICTING_CLAIMS": 0,
+      "DECISION_CRITICAL_OMISSION": 0,
+      "INSTRUCTION_OR_CONSTRAINT_ERROR": 0,
+      "REASONING_OR_BAD_PREMISE_ERROR": 0,
+      "SOURCE_OR_EVIDENCE_ERROR": 0,
+      "UNSUPPORTED_OR_OVERCONFIDENT_CLAIM": 0,
+      "USER_CONTEXT_OR_MEMORY_ERROR": 0
+    },
+    "UNSUPPORTED_OR_OVERCONFIDENT_CLAIM": {
+      "CONFLICTING_CLAIMS": 0,
+      "DECISION_CRITICAL_OMISSION": 0,
+      "INSTRUCTION_OR_CONSTRAINT_ERROR": 0,
+      "REASONING_OR_BAD_PREMISE_ERROR": 0,
+      "SOURCE_OR_EVIDENCE_ERROR": 0,
+      "UNSUPPORTED_OR_OVERCONFIDENT_CLAIM": 0,
+      "USER_CONTEXT_OR_MEMORY_ERROR": 0
+    },
+    "USER_CONTEXT_OR_MEMORY_ERROR": {
+      "CONFLICTING_CLAIMS": 0,
+      "DECISION_CRITICAL_OMISSION": 0,
+      "INSTRUCTION_OR_CONSTRAINT_ERROR": 0,
+      "REASONING_OR_BAD_PREMISE_ERROR": 0,
+      "SOURCE_OR_EVIDENCE_ERROR": 0,
+      "UNSUPPORTED_OR_OVERCONFIDENT_CLAIM": 0,
+      "USER_CONTEXT_OR_MEMORY_ERROR": 0
+    }
+  },
+  "secondary_tags": {
+    "BAD_PREMISE_ENDORSEMENT": {
+      "expected": 0,
+      "matched": 0,
+      "predicted": 0,
+      "extra": 0
+    },
+    "CONCLUSION_MISMATCH": {
+      "expected": 0,
+      "matched": 0,
+      "predicted": 0,
+      "extra": 0
+    },
+    "EPISTEMIC_EVASION": {
+      "expected": 0,
+      "matched": 0,
+      "predicted": 0,
+      "extra": 0
+    },
+    "GOAL_MISALIGNMENT": {
+      "expected": 0,
+      "matched": 0,
+      "predicted": 0,
+      "extra": 0
+    },
+    "HIGH_STAKES": {
+      "expected": 0,
+      "matched": 0,
+      "predicted": 0,
+      "extra": 0
+    },
+    "LONG_CONTEXT_DEPENDENCY": {
+      "expected": 0,
+      "matched": 0,
+      "predicted": 0,
+      "extra": 0
+    },
+    "MISSING_CAVEAT": {
+      "expected": 0,
+      "matched": 0,
+      "predicted": 0,
+      "extra": 0
+    },
+    "SYCOPHANCY": {
+      "expected": 0,
+      "matched": 0,
+      "predicted": 0,
+      "extra": 0
+    }
+  },
+  "confidence_buckets": {
+    "1": {
+      "predicted": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "trap_false_positive": 0
+    },
+    "2": {
+      "predicted": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "trap_false_positive": 0
+    },
+    "3": {
+      "predicted": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "trap_false_positive": 0
+    },
+    "4": {
+      "predicted": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "trap_false_positive": 0
+    },
+    "5": {
+      "predicted": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "trap_false_positive": 0
+    },
+    "6": {
+      "predicted": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "trap_false_positive": 0
+    },
+    "7": {
+      "predicted": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "trap_false_positive": 0
+    },
+    "8": {
+      "predicted": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "trap_false_positive": 0
+    },
+    "9": {
+      "predicted": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "trap_false_positive": 0
+    },
+    "10": {
+      "predicted": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "trap_false_positive": 0
+    }
+  },
+  "turn_only_wrong_primary_failure_examples": [],
+  "unmatched_predictions": []
+}

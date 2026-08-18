@@ -1,0 +1,10 @@
+{
+  "model": "gemma-4-31b-it",
+  "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "examples": "data/truthlens_long_context_v1/examples.jsonl",
+  "predictions": "results/truthlens_long_context_v1_dry_run/predictions.jsonl",
+  "raw_dir": "results/truthlens_long_context_v1_dry_run/raw",
+  "dry_run": true,
+  "chunk_max_tokens": 180000,
+  "chunk_overlap_turns": 10
+}

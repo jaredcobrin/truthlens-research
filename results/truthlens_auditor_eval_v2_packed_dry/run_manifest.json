@@ -1,0 +1,11 @@
+{
+  "model": "google/gemma-4-31b-it",
+  "base_url": "https://api.novita.ai/openai/v1",
+  "examples": "data/truthlens_auditor_eval_v2/packed_long_examples.jsonl",
+  "prompt_file": "prompts/truthlens_auditor_v1.md",
+  "predictions": "results/truthlens_auditor_eval_v2_packed_dry/predictions.jsonl",
+  "raw_dir": "results/truthlens_auditor_eval_v2_packed_dry/raw",
+  "dry_run": true,
+  "chunk_max_tokens": 12000,
+  "chunk_overlap_turns": 4
+}

@@ -1,0 +1,17 @@
+{
+  "model": "google/gemma-4-31b-it",
+  "base_url": "https://api.novita.ai/openai/v1",
+  "examples": "data/truthlens_auditor_eval_v2/unit_examples.jsonl",
+  "claim_prompt_file": "prompts/truthlens_claim_extractor_v1.md",
+  "auditor_prompt_file": "prompts/truthlens_chunk_auditor_with_memory_v1.md",
+  "predictions": "results/truthlens_memory_audit_eval_v2_unit_full_novita/predictions.jsonl",
+  "raw_dir": "results/truthlens_memory_audit_eval_v2_unit_full_novita/raw",
+  "dry_run": false,
+  "heuristic_claims": true,
+  "chunk_max_tokens": 12000,
+  "chunk_overlap_turns": 4,
+  "max_chunks": null,
+  "max_prompt_tokens": 16000,
+  "retrieval_top_k": 30,
+  "retrieval_min_score": 0.35
+}

@@ -1,0 +1,5 @@
+{"id":"tlc_v1_clean_no_issue_300k_000","predicted_has_issue":false,"predicted_type":null,"predicted_target_turn":null,"finding_count":0}
+{"id":"tlc_v1_local_contradiction_300k_000","predicted_has_issue":true,"predicted_type":"CONTRADICTION","predicted_target_turn":40,"finding_count":2}
+{"id":"tlc_v1_cross_chunk_contradiction_300k_000","predicted_has_issue":false,"predicted_type":null,"predicted_target_turn":null,"finding_count":0}
+{"id":"tlc_v1_far_distance_contradiction_300k_000","predicted_has_issue":true,"predicted_type":"CONTRADICTION","predicted_target_turn":52,"finding_count":1}
+{"id":"tlc_v1_allowed_revision_300k_000","predicted_has_issue":false,"predicted_type":null,"predicted_target_turn":null,"finding_count":0}

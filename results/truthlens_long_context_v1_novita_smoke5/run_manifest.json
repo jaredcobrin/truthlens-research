@@ -1,0 +1,10 @@
+{
+  "model": "google/gemma-4-31b-it",
+  "base_url": "https://api.novita.ai/openai/v1",
+  "examples": "data/truthlens_long_context_smoke5/examples.jsonl",
+  "predictions": "results/truthlens_long_context_v1_novita_smoke5/predictions.jsonl",
+  "raw_dir": "results/truthlens_long_context_v1_novita_smoke5/raw",
+  "dry_run": false,
+  "chunk_max_tokens": 170000,
+  "chunk_overlap_turns": 10
+}
