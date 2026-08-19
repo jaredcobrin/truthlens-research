@@ -36,6 +36,16 @@ htmlcov/
 # Claude Code local state
 .claude/
 
+# Local agent-session telemetry -- not project content
+.agentlens/
+
+# AI-assistant working notes -- not project content
+CLAUDE.md
+claude_code_brief.md
+
+# Superseded scratch notebook -- predates the current eval pipeline
+truthlens_eval.ipynb
+
 # Jupyter
 .ipynb_checkpoints/
 
